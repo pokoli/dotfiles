@@ -1,0 +1,1 @@
+/usr/share/vim-conque/plugin/conque_term.vim

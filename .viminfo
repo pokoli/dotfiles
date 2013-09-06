@@ -1,0 +1,1176 @@
+# Aquest fitxer viminfo ha estat generat pel Vim 7.3.
+# El podeu editar si aneu amb compte!
+
+# Valor de 'encoding' en el moment d'escriure aquest fitxer
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# √öltim Patr√≥ de Cerca:
+~MSle0~/timesheet
+
+# √öltim Substitute Patr√≥ de Cerca:
+~MSle0&id_employee
+
+# √öltima cadena substitu√Øda:
+$
+
+# Historial d'ordres (de m√©s a menys recent):
+:xa
+:w
+:tabp
+:tabn
+:E
+:tabf ../project/tests/test_project.py
+:W
+:Tabp
+:G
+:sh
+:tabf ../timesheet/work.py
+:tabf ../timesheet_cost/company.py
+:'<,'>s/id_employee/employee_id/
+:'<,'>%s/id_employee/employee_id/
+:166
+:tabnew analytic_account/account.py
+:tabnew %
+:x
+:554
+:qa!
+:tabf %
+:q!
+:1619
+:%s/trytond\/modules\/timesheet\///
+:tabnew /tmp/timesheet.diff
+:%s/trytond\/modules\/stock_supply\///
+:tabnew /tmp/stock_supply.diff
+:%s/trytond\/modules\/stock_product_location\///
+:tabnew /tmp/stock_product_location.diff
+:%s/trytond\/modules\/stock_location_sequence\///
+:tabnew /tmp/stock_location_sequence.diff
+:%s/trytond\/modules\/stock_forecast\///
+:tabnew /tmp/stock_forecast.diff
+:%s/trytond\/modules\/stock\///
+:tabnew /tmp/stock.diff
+:%s/trytond\/modules\/sale_supply_drop_shipment\///
+:tabnew /tmp/sale_supply_drop_shipment.diff
+:%s/trytond\/modules\/sale_supply\///
+:tabnew /tmp/sale_supply.diff
+:%s/trytond\/modules\/sale_shipment_cost\///
+:tabnew /tmp/sale_shipment_cost.diff
+:%s/trytond\/modules\/sale_opportunity\///
+:tabnew /tmp/sale_opportunity.diff
+:%s/trytond\/modules\/sale\///
+:tabnew /tmp/sale.diff
+:%s/trytond\/modules\/purchase_shipment_cost\///
+:tabnew /tmp/purchase_shipment_cost.diff
+:%s/trytond\/modules\/purchase_invoice_line_standalone\///
+:tabnew /tmp/purchase_invoice_line_standalone.diff
+:%s/trytond\/modules\/purchase\///
+
+# Historial de cadenes cercades (de m√©s a menys recent):
+? \s\+$
+?/timesheet
+?/get_hours
+? \<works_to_timesheet\>
+? \<on_change_with_hours\>
+?/hours
+?/sum_tree
+?/project
+? \<timedelta\>
+? \<datetime\>
+?/to_date
+? \<transaction\>
+? \<Transaction\>
+? \<get_hours\>
+?/current_employee
+? \<get_cost\>
+? \<timesheet_works\>
+? id_employee
+?/DISTINCT
+?/change_timesheet
+?/query
+?/line_query
+?/get_line
+?/query_get
+?/get_query
+? \<HoursEmployeeWeekly\>
+?/SQL_OPERA
+?/index_name
+? \<change_timesheet_available\>
+?/Avail
+?/trytond\/modules/
+?/trytond/modules/
+?/modules
+?/sequence
+?/default_invoice_type
+? trytond\/modules\/timesheet\/
+?/dispatcher
+? trytond\/modules\/stock_supply\/
+? trytond\/modules\/stock_product_location\/
+? trytond\/modules\/stock_location_sequence\/
+? trytond\/modules\/stock_forecast\/
+?/location_sequence
+? trytond\/modules\/stock\/
+?/stock_forecast
+? trytond\/modules\/sale_supply_drop_shipment\/
+? trytond\/modules\/sale_supply\/
+? trytond\/modules\/sale_shipment_cost\/
+? trytond\/modules\/sale_opportunity\/
+?/shipment_cost
+? trytond\/modules\/sale\/
+
+# Historial d'expressions (de m√©s a menys recent):
+
+# Historial de l√≠nies d'entrada (de m√©s a menys recent):
+
+# Historial de l√≠nies d'entrada (de m√©s a menys recent):
+
+# Registres:
+"0	LINE	0
+	            for date, cost_price in test_prices:
+	                self.assertEqual(employee.compute_cost_price(date), cost_price)
+"1	LINE	0
+	            self.assetEqual(project.cost, Decimal('0'))
+	            self.line(employee=employee.id, work=work.id, hours=1.0,
+	                date=datetime.date(2011, 1, 1)).save()
+	            self.assetEqual(project.cost, Decimal('10'))
+	            self.line(employee=employee.id, work=work.id, hours=1.0,
+	                date=datetime.date(2011, 2, 1)).save()
+	            self.assetEqual(project.cost, Decimal('20'))
+"2	LINE	0
+	
+"3	LINE	0
+	            self.line(employee=employee.id, work=work.id, hours=1.0,
+	                date=datetime.date(2010, 1, 1)).save()
+"4	LINE	0
+	        test
+"5	LINE	0
+	            for date, cost_price in test_prices:
+	                self.assertEqual(employee.compute_cost_price(date), cost_price)
+"6	LINE	0
+	        self.line = POOL.get('timesheet.line')
+"7	LINE	0
+	        test_costs = [
+	            ('Work 1', 0),
+	            ('Work 2', Decimal(10)),
+	            ('Work 3', Decimal(10)),
+	            (datetime.date(2012, 1, 1), Decimal(15)),
+	            (datetime.date(2012, 6, 1), Decimal(15)),
+	            (datetime.date(2013, 1, 1), Decimal(20)),
+	            (datetime.date(2013, 6, 1), Decimal(20)),
+	            ]
+"8	LINE	0
+	            ]
+"9	LINE	0
+	            (datetime.date(2010, 1, 1), 0),
+	            (datetime.date(2011, 1, 1), Decimal(10)),
+	            (datetime.date(2011, 6, 1), Decimal(10)),
+	            (datetime.date(2012, 1, 1), Decimal(15)),
+	            (datetime.date(2012, 6, 1), Decimal(15)),
+	            (datetime.date(2013, 1, 1), Decimal(20)),
+	            (datetime.date(2013, 6, 1), Decimal(20)),
+"a	LINE	0
+	            party, = Party.create([{
+	                'name': 'Registered User',
+	            }])
+	            regd_user, = NereidUser.create([{
+	                'party': party.id,
+	                'display_name': party.rec_name,
+	                'email': 'regd-user@openlabs.co.in',
+	                'password': 'password',
+	                'company': company.id,
+	            }])
+"b	LINE	0
+	    Company:
+	      foreignAlias: Company
+	      local: company_id
+	      foreign: id
+	      type: one
+	      onDelete: CASCADE
+"d	LINE	0
+	            import idb;
+	            idb.set_trace();
+"u	CHAR	0
+	733
+<e per defecte surti: |VARIABLE_EMPRESA| * |VARIABLE_DIRECCI√ìN_FACTURACI√ìN| * |VARIABLE_NIF| * |VARIABLE_REG._MERCANTIL.|De acuerdo con la Lei Org√°nica de Protecci√≥n de Datos 15/99, podr√° consultar, rectificar y cancelar sus datos mediante escrito a la direcci√≥n de correo electr√≥nico: |VARIABLE_EMAIL|    Afegir descipcions de la forma de pagament:ayu/payment_typeÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkri,descriptionÄkdÄkuÄklÄkrvÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄkryÄkdpuPÄkdÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklPÄkdÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklÄklPÄkdÄkldÄkuuuÄkrPÄkdÄkuuÄkrÄklpÄkuÄkuÄkruÄkrÄkuÄklvÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrÄkrdÄkdÄkupu
+"z	CHAR	0
+	Z:
+""-	CHAR	0
+	Work 1
+
+# Marques de fitxer:
+'0  84  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+'1  89  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+'2  73  8  ~/tryton/develop/modules/timesheet_cost/company.py
+'3  40  0  ~/tryton/develop/modules/timesheet/work.py
+'4  1  0  /tmp/issue3188.patch
+'5  1  0  /tmp/hg-editor-yQ08X4.txt
+'6  178  31  ~/tryton/develop/modules/timesheet/work.py
+'7  218  36  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+'8  1  0  ../analytic_account/account.py
+'9  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_sale/sale.py
+
+# Llista de salts (de m√©s a menys recent):
+-'  84  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  81  30  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  79  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  67  12  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  86  14  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  53  22  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  1  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  89  0  ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+-'  73  8  ~/tryton/develop/modules/timesheet_cost/company.py
+-'  36  10  ~/tryton/develop/modules/timesheet_cost/company.py
+-'  1  0  ~/tryton/develop/modules/project_revenue/work.py
+-'  40  0  ~/tryton/develop/modules/timesheet/work.py
+-'  37  49  ~/tryton/develop/modules/project_revenue/work.py
+-'  56  16  ~/tryton/develop/modules/project_revenue/work.py
+-'  1  0  /tmp/issue3188.patch
+-'  1  0  /tmp/hg-editor-yQ08X4.txt
+-'  4  12  /tmp/hg-editor-yQ08X4.txt
+-'  174  31  ~/tryton/develop/modules/timesheet/work.py
+-'  8  0  ~/tryton/develop/modules/timesheet/work.py
+-'  1  0  ~/tryton/develop/modules/timesheet/work.py
+-'  218  36  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  201  36  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  232  33  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  219  8  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  158  33  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  145  23  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/line.py
+-'  26  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account
+-'  1  0  ../analytic_account/account.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_sale/sale.py
+-'  230  1  ~/tryton/python-sql/trytond/trytond/modules/analytic_invoice/invoice.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_invoice/invoice.py
+-'  303  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_invoice/tests/test_analytic_invoice.py
+-'  45  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/tests/test_analytic_account.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/tests/test_analytic_account.py
+-'  6  0  ~/tryton/python-sql/trytond/trytond/ir/model.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/ir/model.py
+-'  577  12  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  7  0  ~/tryton/python-sql/trytond/trytond/ir/model.py
+-'  38  0  ~/tryton/python-sql/trytond/trytond/ir
+-'  1  0  ~/tryton/python-sql/trytond/trytond/ir/model.py.rej
+-'  91  8  ~/tryton/python-sql/trytond/trytond/modules/analytic_account/line.py
+-'  189  6  ~/tryton/python-sql/trytond/trytond/modules/timesheet/line.py
+-'  17  6  ~/tryton/python-sql/trytond/trytond/modules/timesheet/line.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/timesheet/line.py
+-'  677  26  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  4  0  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  591  0  ~/tryton/python-sql/trytond/trytond/modules/stock/product.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/stock/product.py
+-'  8  0  ~/tryton/python-sql/trytond/trytond/ir/model.py
+-'  95  0  ~/tryton/python-sql/trytond/trytond/ir
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/sale_shipment_cost/doc/index.rst
+-'  9  0  ~/tryton/python-sql/trytond/trytond/ir/model.py
+-'  156  0  ~/tryton/python-sql/trytond/trytond/ir
+-'  39  0  ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py.rej
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py.rej
+-'  1  0  /trytond/modules/timesheet/work.py.rej
+-'  7  0  ~/tryton/python-sql/trytond/trytond/backend/mysql/table.py.rej
+-'  1  0  ~/tryton/python-sql/trytond/trytond/backend/mysql/table.py.rej
+-'  59  34  ~/tryton/develop/modules/timesheet/work.py
+-'  169  12  ~/tryton/develop/modules/timesheet/work.py
+-'  58  39  ~/tryton/develop/modules/timesheet/work.py
+-'  29  42  ~/tryton/develop/modules/timesheet/work.py
+-'  6  53  ~/btactic/sugarpimec/custom/modules/Tasks/logic_hooks.php
+-'  1  0  ~/btactic/sugarpimec/custom/modules/Tasks/logic_hooks.php
+-'  1  0  ~/btactic/sugarpimec/modules/Tasks/Task.php
+-'  8914  0  /tmp/tmpkXfMH3
+-'  8916  0  /tmp/tmpkXfMH3
+-'  8918  7  /tmp/tmpkXfMH3
+-'  8074  7  /tmp/tmpkXfMH3
+-'  190  0  /tmp/tmpkXfMH3
+-'  188  18  /tmp/tmpkXfMH3
+-'  1  0  /tmp/tmpkXfMH3
+-'  4  0  ~/tryton/python-sql/trytond/trytond/modules/dashboard/res.py
+-'  5  0  ~/tryton/python-sql/trytond/trytond/modules/dashboard/res.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/dashboard/res.py
+-'  5  0  ~/tryton/python-sql/trytond/trytond/backend/__init__.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/backend/__init__.py
+-'  123  0  ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py
+-'  30  52  ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py
+-'  1607  20  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  1601  47  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  1576  31  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  1565  4  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+-'  1  0  ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py.rej
+-'  10500  0  /tmp/tmpI6sto0
+-'  8626  24  /tmp/tmpI6sto0
+-'  8094  0  /tmp/tmpI6sto0
+-'  10501  0  /tmp/tmpI6sto0
+-'  9526  12  /tmp/tmpI6sto0
+
+# Historial de marques en fitxers (de m√©s a menys recent):
+
+> ~/tryton/develop/modules/project_revenue/tests/test_project_revenue.py
+	"	84	0
+	^	87	0
+	.	87	0
+	+	49	28
+	+	51	24
+	+	13	0
+	+	14	0
+	+	17	0
+	+	20	0
+	+	29	0
+	+	35	39
+	+	67	17
+	+	67	0
+	+	67	22
+	+	67	0
+	+	67	21
+	+	67	20
+	+	67	0
+	+	79	44
+	+	79	0
+	+	80	34
+	+	79	33
+	+	80	55
+	+	81	54
+	+	36	0
+	+	34	0
+	+	19	0
+	+	86	68
+	+	86	43
+	+	86	0
+	+	86	0
+	+	86	0
+	+	86	41
+	+	86	51
+	+	86	0
+	+	86	41
+	+	86	51
+	+	58	11
+	+	58	15
+	+	61	48
+	+	62	48
+	+	63	50
+	+	64	49
+	+	65	49
+	+	81	0
+	+	82	0
+	+	85	39
+	+	82	45
+	+	86	0
+	+	83	0
+	+	83	0
+	+	84	29
+	+	83	0
+	+	86	0
+	+	79	52
+	+	87	0
+
+> ~/tryton/develop/modules/project/tests/test_project.py
+	"	42	0
+
+> ~/tryton/develop/modules/timesheet_cost/tests/test_timesheet_cost.py
+	"	78	0
+
+> ~/tryton/develop/modules/project_revenue/work.py
+	"	79	24
+	^	96	28
+	.	82	0
+	+	87	13
+	+	97	62
+	+	70	0
+	+	91	64
+	+	97	60
+	+	79	30
+	+	79	23
+	+	91	0
+	+	97	0
+	+	97	26
+	+	92	0
+	+	97	0
+	+	91	0
+	+	94	75
+	+	97	26
+	+	97	71
+	+	88	13
+	+	90	31
+	+	91	0
+	+	94	20
+	+	97	49
+	+	91	26
+	+	97	65
+	+	93	0
+	+	91	38
+	+	94	60
+	+	94	75
+	+	94	111
+	+	94	0
+	+	9	0
+	+	4	30
+	+	94	86
+	+	97	0
+	+	74	38
+	+	98	0
+	+	97	34
+	+	98	22
+	+	83	63
+	+	94	55
+	+	83	59
+	+	94	46
+	+	79	28
+	+	91	0
+	+	90	0
+	+	86	0
+	+	56	0
+	+	56	0
+	+	55	47
+	+	56	0
+	+	97	0
+	+	98	0
+	+	98	56
+	+	79	0
+	+	80	20
+	+	80	0
+	+	80	48
+	+	97	51
+	+	80	20
+	+	73	19
+	+	72	48
+	+	80	43
+	+	98	0
+	+	98	0
+	+	97	0
+	+	79	0
+	+	74	0
+	+	43	0
+	+	94	87
+	+	80	87
+	+	80	33
+	+	81	23
+	+	98	0
+	+	81	0
+	+	80	20
+	+	81	39
+	+	71	49
+	+	78	48
+	+	94	16
+	+	97	12
+	+	94	61
+	+	95	0
+	+	94	56
+	+	97	25
+	+	94	29
+	+	71	25
+	+	82	61
+	+	93	0
+	+	93	0
+	+	93	27
+	+	97	47
+	+	89	22
+	+	93	0
+	+	94	0
+	+	93	0
+	+	94	0
+	+	93	31
+	+	94	0
+	+	96	27
+	+	94	55
+	+	82	0
+
+> ~/tryton/develop/modules/timesheet_cost/company.py
+	"	73	8
+	^	36	10
+	.	35	0
+	+	34	0
+	+	35	52
+	+	38	0
+	+	35	65
+	+	37	7
+	+	35	142
+	+	37	0
+	+	36	18
+	+	36	11
+	+	36	0
+	+	35	0
+
+> ~/tryton/develop/modules/timesheet/work.py
+	"	140	12
+	.	128	0
+	+	180	12
+	+	180	23
+	+	180	0
+	+	180	21
+	+	180	49
+	+	177	92
+	+	180	52
+	+	180	31
+	+	177	92
+	+	179	20
+	+	180	0
+	+	180	36
+	+	180	28
+	+	180	32
+	+	180	67
+	+	181	0
+	+	180	0
+	+	177	48
+	+	177	71
+	+	177	71
+	+	59	52
+	+	180	0
+	+	181	48
+	+	171	20
+	+	173	19
+	+	177	92
+	+	177	16
+	+	179	19
+	+	181	46
+	+	180	0
+	+	59	76
+	+	59	94
+	+	61	0
+	+	58	55
+	+	59	21
+	+	177	0
+	+	175	74
+	+	177	0
+	+	176	0
+	+	174	46
+	+	177	53
+	+	175	63
+	+	174	47
+	+	175	17
+	+	177	59
+	+	174	38
+	+	173	62
+	+	120	31
+	+	121	43
+	+	125	45
+	+	120	31
+	+	103	38
+	+	130	27
+	+	103	0
+	+	121	43
+	+	58	67
+	+	59	46
+	+	58	40
+	+	179	0
+	+	177	70
+	+	178	0
+	+	174	60
+	+	172	0
+	+	173	38
+	+	175	63
+	+	58	67
+	+	59	34
+	+	58	64
+	+	59	73
+	+	60	21
+	+	59	74
+	+	171	11
+	+	175	21
+	+	176	23
+	+	178	31
+	+	118	32
+	+	120	15
+	+	119	50
+	+	120	39
+	+	120	0
+	+	119	77
+	+	120	34
+	+	121	27
+	+	113	0
+	+	128	0
+	+	127	0
+	+	128	0
+	+	125	0
+	+	122	45
+	+	125	34
+	+	122	25
+	+	123	29
+	+	124	43
+	+	125	46
+	+	130	0
+	+	128	24
+	+	101	0
+	+	122	0
+	+	125	0
+	+	128	0
+
+> ~/tryton/develop/modules/timesheet/line.py
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/tryton/develop/modules/project/work.py
+	"	221	8
+
+> ~/tryton/develop/modules/timesheet_cost/timesheet.py
+	"	1	0
+
+> /tmp/issue3188.patch
+	"	1	0
+
+> /tmp/hg-editor-yQ08X4.txt
+	"	1	0
+	^	4	13
+	.	1	0
+	+	4	12
+	+	1	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_account/account.py
+	"	218	36
+	.	218	36
+	+	145	23
+	+	219	0
+	+	145	0
+	+	144	36
+	+	218	36
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_account/line.py
+	"	96	8
+	.	96	8
+	+	96	8
+	+	96	8
+
+> ../analytic_account/account.py
+	"	1	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_sale/sale.py
+	"	1	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_invoice/invoice.py
+	"	230	1
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_invoice/tests/test_analytic_invoice.py
+	"	1	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/analytic_account/tests/test_analytic_account.py
+	"	45	0
+
+> ~/tryton/python-sql/trytond/trytond/ir/model.py
+	"	6	0
+	.	6	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+
+> ~/tryton/python-sql/trytond/trytond/ir/model.py.rej
+	"	7	0
+	.	7	0
+	+	7	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py
+	"	577	12
+	^	1603	0
+	.	1604	4
+	+	1604	0
+	+	1603	0
+	+	1605	0
+	+	1606	0
+	+	1607	0
+	+	1608	0
+	+	1604	4
+
+> ~/tryton/python-sql/trytond/trytond/modules/timesheet/line.py
+	"	189	6
+
+> ~/tryton/python-sql/trytond/trytond/modules/stock/product.py
+	"	591	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/sale_shipment_cost/doc/index.rst
+	"	1	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py.rej
+	"	39	0
+
+> /trytond/modules/timesheet/work.py.rej
+	"	1	0
+
+> ~/tryton/python-sql/trytond/trytond/backend/mysql/table.py.rej
+	"	7	0
+
+> ~/tryton/python-sql/trytond/trytond/backend/mysql/table.py
+	"	273	8
+
+> ~/btactic/sugarpimec/custom/modules/Tasks/logic_hooks.php
+	"	6	53
+
+> ~/btactic/sugarpimec/modules/Tasks/Task.php
+	"	1	0
+
+> /tmp/tmpkXfMH3
+	"	8914	0
+	.	25	0
+	+	8918	0
+	+	25	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/dashboard/res.py
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+	+	5	0
+	+	4	0
+
+> ~/tryton/python-sql/trytond/trytond/backend/__init__.py
+	"	5	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/timesheet/work.py
+	"	123	0
+	.	121	0
+	+	109	0
+	+	115	0
+	+	116	0
+	+	117	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+
+> ~/tryton/python-sql/trytond/trytond/modules/account_invoice/invoice.py.rej
+	"	6	0
+
+> /tmp/tmpI6sto0
+	"	10500	0
+	.	10501	0
+	+	8918	0
+	+	25	0
+	+	8918	0
+	+	8918	0
+	+	8918	0
+	+	8919	0
+	+	10472	0
+	+	10500	0
+	+	10501	0
+
+> /tmp/dashboard.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/party.diff
+	"	113	0
+	.	2	0
+	+	136	0
+	+	2	0
+
+> /tmp/party_vcarddav.diff
+	"	78	0
+	.	2	0
+	+	2	0
+
+> /tmp/product.diff
+	"	120	0
+	.	1	0
+	+	1	0
+
+> /tmp/product_cost_history.diff
+	"	88	0
+	.	2	0
+	+	2	0
+
+> /tmp/product_price_list.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/production.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/project.diff
+	"	71	0
+	.	2	0
+	+	2	0
+
+> /tmp/project_invoice.diff
+	"	65	0
+	.	2	0
+	+	2	0
+
+> /tmp/purchase.diff
+	"	419	0
+	.	2	0
+	+	2	0
+
+> /tmp/purchase_invoice_line_standalone.diff
+	"	70	0
+	.	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+
+> /tmp/purchase_shipment_cost.diff
+	"	21	0
+	.	2	0
+	+	2	0
+
+> /tmp/sale.diff
+	"	355	0
+	.	2	0
+	+	2	0
+
+> /tmp/sale_opportunity.diff
+	"	355	0
+	.	2	0
+	+	2	0
+
+> /tmp/sale_shipment_cost.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/sale_supply.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/sale_supply_drop_shipment.diff
+	"	21	0
+	.	2	0
+	+	2	0
+
+> /tmp/stock.diff
+	"	1049	0
+	.	2	0
+	+	2	0
+
+> /tmp/stock_forecast.diff
+	"	184	0
+	.	2	0
+	+	2	0
+
+> /tmp/stock_location_sequence.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/stock_product_location.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/stock_supply.diff
+	"	82	0
+	.	2	0
+	+	2	0
+
+> /tmp/timesheet.diff
+	"	240	0
+	.	1	0
+	+	1	0
+
+> /tmp/account_asset.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/account_invoice.diff
+	"	434	0
+	.	2	0
+	+	2	0
+
+> /tmp/account_statement.diff
+	"	1	0
+	.	2	0
+	+	2	0
+
+> /tmp/account_statement2.diff
+	"	29	0
+	.	2	0
+	+	2	0
+
+> /tmp/account_stock_anglo_saxon.diff
+	"	45	0
+	.	2	0
+	+	2	0
+
+> /tmp/account_stock_continental.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/analytic_account.diff
+	"	206	0
+	.	2	0
+	+	2	0
+
+> /tmp/calendar.diff
+	"	216	0
+	.	2	0
+	+	2	0
+
+> /tmp/calendar_clasification.diff
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /tmp/calendar_todo.diff
+	"	220	0
+	.	1	0
+	+	1	0
+
+> /tmp/carrier_percentage.diff
+	"	6	0
+	.	2	0
+	+	2	0
+
+> /tmp/carrier_weight.diff
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /tmp/company.diff
+	"	25	0
+	.	1	0
+	+	1	0
+
+> /tmp/account.diff
+	"	1236	0
+	.	8	0
+	+	2	0
+	+	8	0
+
+> ~/tryton/hgreview/hgreview/__init__.py
+	"	328	17
+
+> ~/tryton/hgreview/hgreview/rietveld.py
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter/.git/COMMIT_EDITMSG
+	"	1	0
+	^	1	43
+	.	1	0
+	+	1	31
+	+	9	6
+	+	7	3
+	+	9	38
+	+	6	72
+	+	9	39
+	+	1	30
+	+	6	0
+	+	10	44
+	+	4	53
+	+	1	0
+
+> ~/tryton/cookiecutter/cookiecutter/tests/test_main.py
+	"	99	37
+	^	99	38
+	.	99	37
+	+	80	0
+	+	79	0
+	+	34	0
+	+	81	34
+	+	84	84
+	+	84	84
+	+	86	65
+	+	87	49
+	+	88	58
+	+	89	50
+	+	94	50
+	+	95	51
+	+	98	36
+	+	99	37
+
+> ~/tryton/cookiecutter/cookiecutter/requirements/base_test.txt
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/tryton/cookiecutter/cookiecutter/requirements/test_33.txt
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter/requirements/test_26.txt
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter/requirements/test_27.txt
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter/tests/test_vcs.py
+	"	83	8
+	^	86	15
+	.	86	14
+	+	84	0
+	+	84	0
+	+	84	0
+	+	84	0
+	+	74	0
+	+	64	44
+	+	64	45
+	+	64	36
+	+	74	65
+	+	84	13
+	+	84	13
+	+	32	12
+	+	32	17
+	+	38	0
+	+	82	23
+	+	74	0
+	+	84	0
+	+	47	66
+	+	49	54
+	+	50	0
+	+	49	0
+	+	61	50
+	+	62	51
+	+	63	42
+	+	108	50
+	+	109	51
+	+	85	0
+	+	104	0
+	+	46	0
+	+	50	75
+	+	49	19
+	+	50	19
+	+	89	0
+	+	102	0
+	+	101	17
+	+	96	14
+	+	86	14
+
+> ~/tryton/cookiecutter/cookiecutter/cookiecutter/main.py
+	"	1	0
+	.	49	0
+	+	50	20
+	+	48	3
+	+	49	25
+	+	48	0
+	+	50	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	48	0
+	+	46	0
+	+	47	0
+	+	49	0
+	+	49	0
+
+> /tmp/timetracker/setup.py
+	"	82	0
+
+> /tmp/timetracker/tryton.cfg
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/cookiecutter.json
+	"	7	14
+	^	7	11
+	.	7	10
+	+	3	22
+	+	4	36
+	+	6	27
+	+	5	57
+	+	7	10
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/README.rst
+	"	21	0
+	^	9	31
+	.	9	30
+	+	14	0
+	+	18	29
+	+	25	20
+	+	5	43
+	+	14	0
+	+	11	0
+	+	6	72
+	+	8	1
+	+	13	50
+	+	14	0
+	+	8	2
+	+	10	0
+	+	6	52
+	+	9	30
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/{{cookiecutter.module_name}}/README
+	"	16	0
+	.	35	0
+	+	2	35
+	+	18	59
+	+	36	23
+	+	18	40
+	+	36	13
+	+	13	17
+	+	2	0
+	+	3	0
+	+	17	0
+	+	35	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/module_name/setup.py
+	"	83	0
+
+> ~/tryton/cookiecutter/cookiecutter/cookiecutter/find.py
+	"	24	0
+	.	27	0
+	+	28	0
+	+	28	17
+	+	18	0
+	+	28	0
+	+	28	0
+	+	27	0
+
+> ~/tryton/cookiecutter/cookiecutter/cookiecutter/generate.py
+	"	135	12
+	.	136	0
+	+	62	8
+	+	70	8
+	+	51	0
+	+	85	0
+	+	85	0
+	+	128	0
+	+	136	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/{{cookiecutter.module_name}}/setup.py
+	"	41	45
+	^	41	46
+	.	41	45
+	+	41	45
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/module_name/README
+	"	13	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/module_name/INSTALL
+	"	13	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonmodule/__init__.py
+	"	1	0
+	^	8	41
+	.	8	40
+	+	8	40
+
+> ~/tryton/cookiecutter/cookiecutter-trytonpackage/cookiecutter.json
+	"	4	49
+	^	4	50
+	.	4	49
+	+	2	7
+	+	6	0
+	+	5	7
+	+	6	15
+	+	5	27
+	+	4	49
+
+> ~/tryton/cookiecutter/cookiecutter-trytonpackage/{{cookiecutter.repo_name}}/tests/test_{{cookicutter.module_name}}.py
+	"	1	4
+	^	30	0
+	.	52	0
+	+	13	0
+	+	24	0
+	+	52	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonpackage/{{cookiecutter.repo_name}}/tests/__init__.py
+	"	4	37
+	^	4	38
+	.	4	37
+	+	4	37
+
+> ~/tryton/cookiecutter/cookiecutter-trytonpackage/{{cookiecutter.repo_name}}/MANIFEST.in
+	"	1	0
+
+> ~/tryton/cookiecutter/cookiecutter-trytonpackage/{{cookiecutter.repo_name}}/COPYRIGHT
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	40
+	+	2	0

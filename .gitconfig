@@ -1,0 +1,18 @@
+[user]
+	name = Sergi Almacellas Abellana
+	emai = pokoli@gmail.com
+	email = sergi@koolpi.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	safecrlf = true
+	excludesfile = /home/pokoli/.gitignoreglobal
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p

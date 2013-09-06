@@ -1,0 +1,28 @@
+[ui]
+username = Sergi Almacellas Abellana <sergi@koolpi.com>
+ignore = /home/pokoli/.hgignore
+
+[extensions]
+hgnested =
+hgreview =
+hgext.purge =
+
+[review]
+#Original tryton.org code.
+server = http://codereview.tryton.org
+username = sergi@koolpi.com
+send_email = True
+servers =
+   http://codereview.tryton.org sergi@koolpi.com GOOGLE
+   http://codereview.tryton-erp.es sergi HOSTED
+
+#usernames =
+#    sergi@koolpi.com
+#    sergi
+#servers =
+#    http://codereview.tryton.org
+#    http://codereview.tryton-erp.es
+#account_types =
+#    GOOGLE
+#    HOSTED
+send_email = True
