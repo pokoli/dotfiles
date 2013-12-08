@@ -3,7 +3,7 @@
 # for examples
 
 #autojump
-bash /usr/share/autojump/autojump.sh
+. /usr/share/autojump/autojump.sh
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -105,3 +105,14 @@ fi
 export PATH=$PATH:/usr/share/javadb/bin/
 export DERBY_HOME=/usr/share/javadb
 
+
+#Virtualenv configuration
+export INVOKE_REPO=ssh://hg@bitbucket.org/nantic/tryton-utils
+export WORKON_HOME=~/.virtualenvs
+export PROJECT_HOME=~/nan/projectes/virtualenv
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
+source /etc/bash_completion.d/virtualenvwrapper
+
+#Quilt ocnfigurationº
+alias fquilt="quilt --quiltrc=${HOME}/.quiltrc-features"
+alias pquilt="quilt --quiltrc=${HOME}/.quiltrc-patches"

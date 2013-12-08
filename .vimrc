@@ -5,14 +5,26 @@ set shiftwidth=4
 set expandtab
 set ignorecase
 set smartcase
+set colorcolumn=79
+" utilsnips
+set runtimepath+=~/.vim/ultisnips_rep
+set runtimepath+=~/.vim/Ultisnips
+
+vmap Q gq
+nmap Q gqap
+
+nmap <F8> :TagbarToggle<CR>
+
+" Format XML files with gg=G command
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 
 " Allow pylakes vim plugin to open automatically
 filetype plugin indent on
 " Disbled pep messages for
-let g:PyFlakeDisabledMessages = 'E128,E123,E126'
+let g:PyFlakeDisabledMessages = 'E123,E124,E126,E128'
 
-" Remove trailing spaces before writing
-" Change * with *.py to only remove on python files
+" Remove trailing spaces before writing Change * with *.py to only remove on
+" python files
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Vim indent file

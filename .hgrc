@@ -1,11 +1,13 @@
 [ui]
 username = Sergi Almacellas Abellana <sergi@koolpi.com>
-ignore = /home/pokoli/.hgignore
+ignore = /home/sergi/.hgignore
+merge = internal:fail
 
 [extensions]
 hgnested =
 hgreview =
 hgext.purge =
+prompt = /home/sergi/hg-prompt/prompt.py
 
 [review]
 #Original tryton.org code.
@@ -15,6 +17,7 @@ send_email = True
 servers =
    http://codereview.tryton.org sergi@koolpi.com GOOGLE
    http://codereview.tryton-erp.es sergi HOSTED
+   http://codereview.nan-tic.com sergi HOSTED
 
 #usernames =
 #    sergi@koolpi.com
