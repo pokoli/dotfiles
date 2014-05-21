@@ -66,6 +66,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+#
 
 function prompt_char {
     git branch >/dev/null 2>/dev/null && echo '±' && return
@@ -95,7 +96,7 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 }
 . /usr/share/autojump/autojump.sh
 
-export INVOKE_REPO=ssh://hg@bitbucket.org/nantic/tryton-utils
+export INVOKE_REPO=ssh://hg@bitbucket.org/nantic/tryton-tasks
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=~/nan/projectes/virtualenv
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'

@@ -1,13 +1,15 @@
 [ui]
 username = Sergi Almacellas Abellana <sergi@koolpi.com>
 ignore = /home/sergi/.hgignore
-merge = internal:fail
 
 [extensions]
 hgnested =
 hgreview =
 hgext.purge =
+color =
+pager =
 prompt = /home/sergi/hg-prompt/prompt.py
+mq =
 
 [review]
 #Original tryton.org code.

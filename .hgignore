@@ -2,3 +2,8 @@ syntax: glob
 *.pyc
 *.orig
 *.jasper
+node_modules
+build/
+dist/
+*.egg-info/
+*.egg/
