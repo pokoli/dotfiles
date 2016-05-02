@@ -5,29 +5,18 @@ ignore = /home/sergi/.hgignore
 [extensions]
 hgnested =
 hgreview =
+rebase =
 hgext.purge =
 color =
 pager =
 prompt = ~/.prompt.py
 mq =
+graphlog =
+histedit =
+shelve =
 
 [review]
-#Original tryton.org code.
-server = http://codereview.tryton.org
+server = https://tryton-rietveld.appspot.com/
 username = sergi@koolpi.com
 send_email = True
-servers =
-   http://codereview.tryton.org sergi@koolpi.com GOOGLE
-   http://codereview.tryton-erp.es sergi HOSTED
-   http://codereview.nan-tic.com sergi HOSTED
-
-#usernames =
-#    sergi@koolpi.com
-#    sergi
-#servers =
-#    http://codereview.tryton.org
-#    http://codereview.tryton-erp.es
-#account_types =
-#    GOOGLE
-#    HOSTED
-send_email = True
+oauth2=True

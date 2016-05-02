@@ -3,5 +3,7 @@
 node_modules
 build/
 dist/
+bower_components/
 *.egg-info/
 *.egg/
+*.eggs/

@@ -100,4 +100,11 @@ export INVOKE_REPO=ssh://hg@bitbucket.org/nantic/tryton-tasks
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=~/nan/projectes/virtualenv
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
-source /etc/bash_completion.d/virtualenvwrapper
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+#TRYTOND configuration
+export TRYTOND_CONFIG=~/trytond.conf
+
+#go configuration
+export GOPATH=/home/sergi/go
+export GOBIN=$GOPATH/bin
