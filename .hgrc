@@ -8,7 +8,7 @@ hgreview =
 hgext.purge =
 color =
 pager =
-prompt = /home/sergi/hg-prompt/prompt.py
+prompt = ~/.prompt.py
 mq =
 
 [review]
