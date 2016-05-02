@@ -1,8 +1,12 @@
 " Check python support
-if !has('python')
-    echo "Error: PyFlake.vim required vim compiled with +python."
+if !has('python') && !has('python3')
+    echo "Error: PyFlake.vim required vim compiled with +python or +python3."
     finish
 endif
+
+let s:pycmd = has('python') && (!exists('g:PyFlakeForcePyVersion') || g:PyFlakeForcePyVersion != 3) ? ':py' : ':py3'
+" This is the last sign used, so that we can remove them individually.
+let s:last_sign = 1
 
 if !exists('g:PyFlakeRangeCommand')
     let g:PyFlakeRangeCommand = 'Q'
@@ -47,7 +51,7 @@ endif
 let g:PyFlakeDirectory = expand('<sfile>:p:h')
 
 if !exists('g:PyFlakeCheckers')
-    let g:PyFlakeCheckers = 'pep8,mccabe,pyflakes'
+    let g:PyFlakeCheckers = 'pep8,mccabe,frosted'
 endif
 if !exists('g:PyFlakeDefaultComplexity')
     let g:PyFlakeDefaultComplexity=10
@@ -61,31 +65,20 @@ endif
 if !exists('g:PyFlakeSigns')
     let g:PyFlakeSigns = 1
 endif
+if !exists('g:PyFlakeSignStart')
+    " What is the first sign id that we should use. This is usefull when
+    " there are multiple plugins intalled that use the sign gutter
+    let g:PyFlakeSignStart = 1
+endif
+if !exists('g:PyFlakeAggressive')
+    let g:PyFlakeAggressive = 0
+endif
 if !exists('g:PyFlakeMaxLineLength')
     let g:PyFlakeMaxLineLength = 100
 endif
-
-python << EOF
-
-import sys
-import json
-import vim
-
-sys.path.insert(0, vim.eval("g:PyFlakeDirectory"))
-from flake8 import run_checkers, fix_lines, Pep8Options, MccabeOptions
-
-def flake8_check():
-    checkers=vim.eval('g:PyFlakeCheckers').split(',')
-    ignore=vim.eval('g:PyFlakeDisabledMessages').split(',')
-    MccabeOptions.complexity=int(vim.eval('g:PyFlakeDefaultComplexity'))
-    Pep8Options.max_line_length=int(vim.eval('g:PyFlakeMaxLineLength'))
-    filename=vim.current.buffer.name
-    parse_result(run_checkers(filename, checkers, ignore))
-
-def parse_result(result):
-    vim.command('let g:qf_list = {}'.format(json.dumps(result, ensure_ascii=False)))
-
-EOF
+if !exists('g:PyFlakeLineIndentGlitch')
+    let g:PyFlakeLineIndentGlitch = 1
+endif
 
 function! flake8#on_write()
     if !g:PyFlakeOnWrite || exists("b:PyFlake_disabled") && b:PyFlake_disabled
@@ -102,7 +95,7 @@ function! flake8#run()
 endfun
 
 function! flake8#check()
-    py flake8_check()
+    exec s:pycmd ' flake8_check()'
     let s:matchDict = {}
     for err in g:qf_list
         let s:matchDict[err.lnum] = err.text
@@ -119,35 +112,42 @@ function! flake8#check()
         cclose
         if len(g:qf_list)
             let l:winsize = len(g:qf_list) > g:PyFlakeCWindow ? g:PyFlakeCWindow : len(g:qf_list)
-            exec l:winsize . 'cwindow'
+            exec 'botright ' . l:winsize . 'cwindow'
         endif
     endif
 endfunction
 
 function! flake8#auto(l1, l2) "{{{
     cclose
-    sign unplace *
+    while s:last_sign >= g:PyFlakeSignStart
+        execute "sign unplace" s:last_sign
+        let s:last_sign -= 1
+    endwhile
     let s:matchDict = {}
     call setqflist([])
 
-python << EOF
+exec s:pycmd . ' << EOF'
 start, end = int(vim.eval('a:l1'))-1, int(vim.eval('a:l2'))
 enc = vim.eval('&enc')
-lines = fix_lines(vim.current.buffer[start:end]).splitlines()
+lines = fix_lines(list(unicode(x, enc, 'replace') for x in vim.current.buffer[start:end])).splitlines()
 res = [ln.encode(enc, 'replace') for ln in lines]
 vim.current.buffer[start:end] = res
 EOF
 endfunction "}}}
 
 function! flake8#place_signs()
-    "first remove all sings
-    sign unplace *
+    " first remove previous inserted signs. Removing them by id instead of
+    " unplace *, so that this can live in peace with other plugins.
+    while s:last_sign >= g:PyFlakeSignStart
+        execute "sign unplace" s:last_sign
+        let s:last_sign -= 1
+    endwhile
 
     "now we place one sign for every quickfix line
-    let l:id = 1
+    let s:last_sign = g:PyFlakeSignStart - 1
     for item in getqflist()
-        execute(':sign place '.l:id.' name='.l:item.type.' line='.l:item.lnum.' buffer='.l:item.bufnr)
-        let l:id = l:id + 1
+        let s:last_sign += 1
+        execute(':sign place '.s:last_sign.' name='.l:item.type.' line='.l:item.lnum.' buffer='.l:item.bufnr)
     endfor
 endfunction
 
@@ -186,3 +186,38 @@ function! flake8#get_message()
         let b:showing_message = 0
     endif
 endfunction
+
+function! flake8#force_py_version(version)
+    let ver = a:version == 3 ? '3' : ''
+    let s:pycmd = ':py' . ver
+    if !py{ver}eval('"flake8_check" in dir()')
+      call s:init_py_modules()
+    endif
+endfunction "}}}
+
+function! s:init_py_modules()
+exec s:pycmd . ' << EOF'
+
+import sys
+import json
+import vim
+
+sys.path.insert(0, vim.eval("g:PyFlakeDirectory"))
+from flake8 import run_checkers, fix_lines, Pep8Options, MccabeOptions
+
+def flake8_check():
+    checkers=vim.eval('g:PyFlakeCheckers').split(',')
+    ignore=vim.eval('g:PyFlakeDisabledMessages').split(',')
+    MccabeOptions.complexity=int(vim.eval('g:PyFlakeDefaultComplexity'))
+    Pep8Options.max_line_length=int(vim.eval('g:PyFlakeMaxLineLength'))
+    Pep8Options.aggressive=int(vim.eval('g:PyFlakeAggressive'))
+    filename=vim.current.buffer.name
+    parse_result(run_checkers(filename, checkers, ignore))
+
+def parse_result(result):
+    vim.command('let g:qf_list = {0}'.format(json.dumps(result, ensure_ascii=False)))
+
+EOF
+endfunction
+
+call s:init_py_modules()
