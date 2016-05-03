@@ -96,15 +96,10 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 }
 . /usr/share/autojump/autojump.sh
 
-export INVOKE_REPO=ssh://hg@bitbucket.org/nantic/tryton-tasks
 export WORKON_HOME=~/.virtualenvs
-export PROJECT_HOME=~/virtualenv
+export PROJECT_HOME=~/projectes
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 #TRYTOND configuration
 export TRYTOND_CONFIG=~/trytond.conf
-
-#go configuration
-export GOPATH=/home/sergi/go
-export GOBIN=$GOPATH/bin
