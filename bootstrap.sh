@@ -6,7 +6,7 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" --exclude "ssh-config" --exclude "bootstrap.sh" \
-		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
+		--exclude "trytond.conf" -avh --no-perms . ~;
 	source ~/.zshrc;
 }
 
