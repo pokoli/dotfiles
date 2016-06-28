@@ -12,3 +12,4 @@ dist/
 .tox/
 bower_components/
 *.rej
+locale/*.json
