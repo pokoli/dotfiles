@@ -108,3 +108,4 @@ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 #TRYTOND configuration
 export TRYTOND_CONFIG=~/trytond.conf
 export TRYTONPASSFILE=~/.default_tryton_password
+export DB_CACHE=~/tryton_db_cache
