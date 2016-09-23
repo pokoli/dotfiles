@@ -99,7 +99,10 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="⚡"
 . /usr/share/autojump/autojump.sh
+#alias
+alias flake8="flake8 --ignore='E122,E123,E124,E126,E128,E309'"
 
+# Environment variables
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=~/projectes
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
