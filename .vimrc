@@ -6,6 +6,7 @@ set expandtab
 set ignorecase
 set smartcase
 set colorcolumn=79
+colorscheme peachpuff
 " utilsnips
 set runtimepath+=~/.vim/ultisnips_rep
 set runtimepath+=~/.vim/Ultisnips
