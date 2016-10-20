@@ -1,0 +1,256 @@
+2016-10-19 20:45:05	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-19 20:45:05	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-19 20:45:05	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-19 20:45:05	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-19 20:45:09	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-19 20:50:04	--	irc: disconnected from server
+2016-10-19 20:50:15	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-19 20:50:15	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-19 20:50:15	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-19 20:50:15	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-19 20:50:31	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-19 22:34:22	<--	irker121 (~irker@moretus.b2ck.com) has quit (Quit: transmission timeout)
+2016-10-19 23:07:52	-->	irker972 (~irker@moretus.b2ck.com) has joined #tryton-commit
+2016-10-19 23:07:52	irker972	company: Xavier Codinas company:default * 625:1f5e756d1260 / CHANGELOG company.py view/employee_form.xml view/employee_tree.xml: Add start and end dates on employee
+2016-10-19 23:07:52	irker972	issue4435
+2016-10-19 23:07:52	irker972	review21181002
+2016-10-19 23:07:52	irker972	roundup-bot #4435/It should be possible to deactivate employees: [resolved] New changeset 1f5e756d1260 by Xavier Codinas in branch 'default': Add start and end dates on employee http... https://bugs.tryton.org/issue4435
+2016-10-19 23:10:27	irker972	timesheet: Xavier Codinas timesheet:default * 450:797df8d74791 / line.py: Add domain for employee end and start date
+2016-10-19 23:10:29	irker972	issue4435
+2016-10-19 23:10:30	irker972	review29501002
+2016-10-19 23:10:31	irker972	roundup-bot #4435/It should be possible to deactivate employees: New changeset 797df8d74791 by Xavier Codinas in branch 'default': Add domain for employee end and start date http://h... https://bugs.tryton.org/issue4435
+2016-10-19 23:25:15	--	irc: disconnected from server
+2016-10-19 23:25:25	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-19 23:25:25	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-19 23:25:25	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-19 23:25:25	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-19 23:25:39	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-19 23:35:25	-->	cedk (~ced@gentoo/developer/cedk) has joined #tryton-commit
+2016-10-19 23:54:24	-->	kstenger (~karla@167.56.249.219) has joined #tryton-commit
+2016-10-20 00:02:17	-->	Timitos (~kpreisler@167.237.15.37.dynamic.jazztel.es) has joined #tryton-commit
+2016-10-20 00:15:01	<--	irker972 (~irker@moretus.b2ck.com) has quit (Remote host closed the connection)
+2016-10-20 00:28:03	<--	kstenger (~karla@167.56.249.219) has quit (Ping timeout: 256 seconds)
+2016-10-20 00:31:04	<--	Timitos (~kpreisler@167.237.15.37.dynamic.jazztel.es) has quit (Quit: Leaving.)
+2016-10-20 01:05:35	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-20 01:05:35	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-20 01:05:35	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-20 01:05:35	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-20 01:05:39	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-20 21:04:17	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-20 21:04:17	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-20 21:04:17	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-20 21:04:17	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-20 21:04:17	***	Buffer Playback...
+2016-10-20 21:04:17	irker746	[14:54:27] issue1456
+2016-10-20 21:04:17	irker746	[14:54:28] review28931002
+2016-10-20 21:04:17	irker746	[14:54:29] roundup-bot #1456/Rename module installation into activation: New changeset d5672a8d9b25 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:30] account_statement: Nicolas ?vrard account_statement:default * 606:ba672bd3ab15 / tests/scenario_account_statement.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:32] issue1456
+2016-10-20 21:04:17	irker746	[14:54:33] review28931002
+2016-10-20 21:04:17	irker746	[14:54:34] roundup-bot #1456/Rename module installation into activation: New changeset ba672bd3ab15 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:35] account_stock_anglo_saxon: Nicolas ?vrard account_stock_anglo_saxon:default * 401:ae03adffe62c / tests/scenario_account_stock_anglo_saxon.rst tests/scenario_account_stock_anglo_saxon_with_drop_shipment.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:37] issue1456
+2016-10-20 21:04:17	irker746	[14:54:38] review28931002
+2016-10-20 21:04:17	irker746	[14:54:39] roundup-bot #1456/Rename module installation into activation: New changeset ae03adffe62c by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:40] account_stock_continental: Nicolas ?vrard account_stock_continental:default * 313:a41607c76ee4 / tests/scenario_account_stock_continental.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:42] issue1456
+2016-10-20 21:04:17	irker746	[14:54:43] review28931002
+2016-10-20 21:04:17	irker746	[14:54:44] roundup-bot #1456/Rename module installation into activation: New changeset a41607c76ee4 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:45] account_stock_landed_cost: Nicolas ?vrard account_stock_landed_cost:default * 34:b3fec57824ec / tests/scenario_account_stock_landed_cost.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:47] issue1456
+2016-10-20 21:04:17	irker746	[14:54:48] review28931002
+2016-10-20 21:04:17	irker746	[14:54:49] roundup-bot #1456/Rename module installation into activation: New changeset b3fec57824ec by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:50] account_stock_landed_cost_weight: Nicolas ?vrard account_stock_landed_cost_weight:default * 29:a1248b2eda1d / tests/scenario_account_stock_landed_cost_weight.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:52] issue1456
+2016-10-20 21:04:17	irker746	[14:54:53] review28931002
+2016-10-20 21:04:17	irker746	[14:54:54] roundup-bot #1456/Rename module installation into activation: New changeset a1248b2eda1d by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:54:55] analytic_account: Nicolas ?vrard analytic_account:default * 486:720147d3b4fb / tests/scenario_analytic_account.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:54:57] issue1456
+2016-10-20 21:04:17	irker746	[14:54:58] review28931002
+2016-10-20 21:04:17	irker746	[14:54:59] roundup-bot #1456/Rename module installation into activation: New changeset 720147d3b4fb by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:00] analytic_invoice: Nicolas ?vrard analytic_invoice:default * 359:8c967165e912 / tests/scenario_analytic_invoice.rst tests/scenario_analytic_invoice_asset.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:02] issue1456
+2016-10-20 21:04:17	irker746	[14:55:03] review28931002
+2016-10-20 21:04:17	irker746	[14:55:04] roundup-bot #1456/Rename module installation into activation: New changeset 8c967165e912 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:05] analytic_purchase: Nicolas ?vrard analytic_purchase:default * 355:8e5dc44780b1 / tests/scenario_analytic_purchase.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:07] issue1456
+2016-10-20 21:04:17	irker746	[14:55:08] review28931002
+2016-10-20 21:04:17	irker746	[14:55:09] roundup-bot #1456/Rename module installation into activation: New changeset 8e5dc44780b1 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:10] analytic_sale: Nicolas ?vrard analytic_sale:default * 317:cfdce66c88e4 / tests/scenario_analytic_sale.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:12] issue1456
+2016-10-20 21:04:17	irker746	[14:55:13] review28931002
+2016-10-20 21:04:17	irker746	[14:55:14] roundup-bot #1456/Rename module installation into activation: New changeset cfdce66c88e4 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:15] calendar: Nicolas ?vrard calendar:default * 609:f1c59912d5e6 / tests/scenario_calendar.py: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:17] issue1456
+2016-10-20 21:04:17	irker746	[14:55:18] review28931002
+2016-10-20 21:04:17	irker746	[14:55:19] roundup-bot #1456/Rename module installation into activation: New changeset f1c59912d5e6 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:20] calendar_scheduling: Nicolas ?vrard calendar_scheduling:default * 408:c4edc34eda1c / tests/scenario_calendar_scheduling.py: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:22] issue1456
+2016-10-20 21:04:17	irker746	[14:55:23] review28931002
+2016-10-20 21:04:17	irker746	[14:55:24] roundup-bot #1456/Rename module installation into activation: New changeset c4edc34eda1c by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:25] carrier_percentage: Nicolas ?vrard carrier_percentage:default * 154:2bb1826ced11 / tests/scenario_carrier_percentage_with_purchase_shipment_cost.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:27] issue1456
+2016-10-20 21:04:17	irker746	[14:55:28] review28931002
+2016-10-20 21:04:17	irker746	[14:55:29] roundup-bot #1456/Rename module installation into activation: New changeset 2bb1826ced11 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:30] carrier_weight: Nicolas ?vrard carrier_weight:default * 195:19295f8de5bf / tests/scenario_carrier_weight.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:32] issue1456
+2016-10-20 21:04:17	irker746	[14:55:33] review28931002
+2016-10-20 21:04:17	irker746	[14:55:34] roundup-bot #1456/Rename module installation into activation: New changeset 19295f8de5bf by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:35] commission: Nicolas ?vrard commission:default * 75:c4eb6c41b999 / tests/scenario_commission.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:37] issue1456
+2016-10-20 21:04:17	irker746	[14:55:38] review28931002
+2016-10-20 21:04:17	irker746	[14:55:39] roundup-bot #1456/Rename module installation into activation: New changeset c4eb6c41b999 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:40] commission_waiting: Nicolas ?vrard commission_waiting:default * 49:657915d245de / tests/scenario_commission_waiting.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:42] issue1456
+2016-10-20 21:04:17	irker746	[14:55:43] review28931002
+2016-10-20 21:04:17	irker746	[14:55:44] roundup-bot #1456/Rename module installation into activation: New changeset 657915d245de by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:45] party: Nicolas ?vrard party:default * 804:81293be475dd / tests/scenario_party_replace.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:47] issue1456
+2016-10-20 21:04:17	irker746	[14:55:48] review28931002
+2016-10-20 21:04:17	irker746	[14:55:49] roundup-bot #1456/Rename module installation into activation: New changeset 81293be475dd by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:50] product_cost_fifo: Nicolas ?vrard product_cost_fifo:default * 342:d95d92259304 / tests/scenario_product_cost_fifo.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:52] issue1456
+2016-10-20 21:04:17	irker746	[14:55:53] review28931002
+2016-10-20 21:04:17	irker746	[14:55:54] roundup-bot #1456/Rename module installation into activation: New changeset d95d92259304 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:55:55] production: Nicolas ?vrard production:default * 330:92fc380f8084 / tests/scenario_production.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:55:57] issue1456
+2016-10-20 21:04:17	irker746	[14:55:58] review28931002
+2016-10-20 21:04:17	irker746	[14:55:59] roundup-bot #1456/Rename module installation into activation: New changeset 92fc380f8084 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:00] pokoli #5962/Allow to override cache implementation: [new] As discussed in https://discuss.tryton.org/t/allow-to-replace-some-standard-classes/105 it will be great to all... https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[14:56:01] production_work: Nicolas ?vrard production_work:default * 26:df9b4832e117 / tests/scenario_production_work.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:03] issue1456
+2016-10-20 21:04:17	irker746	[14:56:04] review28931002
+2016-10-20 21:04:17	irker746	[14:56:05] roundup-bot #1456/Rename module installation into activation: New changeset df9b4832e117 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:07] project_invoice: Nicolas ?vrard project_invoice:default * 213:c905d1f07729 / tests/scenario_project_invoice_effort.rst tests/scenario_project_invoice_progress.rst tests/scenario_project_invoice_timesheet.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:08] issue1456
+2016-10-20 21:04:17	irker746	[14:56:09] review28931002
+2016-10-20 21:04:17	irker746	[14:56:10] roundup-bot #1456/Rename module installation into activation: New changeset c905d1f07729 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:11] purchase: Nicolas ?vrard purchase:default * 1198:ab6ca7a20f01 / tests/scenario_purchase.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:14] issue1456
+2016-10-20 21:04:17	irker746	[14:56:14] review28931002
+2016-10-20 21:04:17	irker746	[14:56:15] roundup-bot #1456/Rename module installation into activation: New changeset ab6ca7a20f01 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:16] purchase_invoice_line_standalone: Nicolas ?vrard purchase_invoice_line_standalone:default * 307:c8d38d2513e0 / tests/scenario_purchase_invoice_line_standalone.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:18] issue1456
+2016-10-20 21:04:17	irker746	[14:56:19] review28931002
+2016-10-20 21:04:17	irker746	[14:56:20] roundup-bot #1456/Rename module installation into activation: New changeset c8d38d2513e0 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:21] purchase_request: Nicolas ?vrard purchase_request:default * 32:c56e5856b232 / tests/scenario_purchase_request.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:24] issue1456
+2016-10-20 21:04:17	irker746	[14:56:25] review28931002
+2016-10-20 21:04:17	irker746	[14:56:25] roundup-bot #1456/Rename module installation into activation: New changeset c56e5856b232 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:26] purchase_shipment_cost: Nicolas ?vrard purchase_shipment_cost:default * 195:d09c548b8ac7 / tests/scenario_purchase_shipment_cost.rst tests/scenario_purchase_shipment_cost_with_account_stock.rst tests/scenario_purchase_shipment_cost_with_account_stock_anglo_saxon.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:28] issue1456
+2016-10-20 21:04:17	irker746	[14:56:29] review28931002
+2016-10-20 21:04:17	irker746	[14:56:30] roundup-bot #1456/Rename module installation into activation: New changeset d09c548b8ac7 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:31] sale: Nicolas ?vrard sale:default * 1039:311cb44319bc / tests/scenario_sale.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:33] issue1456
+2016-10-20 21:04:17	irker746	[14:56:35] review28931002
+2016-10-20 21:04:17	irker746	[14:56:36] roundup-bot #1456/Rename module installation into activation: New changeset 311cb44319bc by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:36] sale_complaint: Nicolas ?vrard sale_complaint:default * 39:94843ce8aee5 / tests/scenario_sale_complaint.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:38] issue1456
+2016-10-20 21:04:17	irker746	[14:56:39] review28931002
+2016-10-20 21:04:17	irker746	[14:56:40] roundup-bot #1456/Rename module installation into activation: New changeset 94843ce8aee5 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:41] sale_extra: Nicolas ?vrard sale_extra:default * 75:d6be676634e0 / tests/scenario_sale_extra.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:43] issue1456
+2016-10-20 21:04:17	irker746	[14:56:44] review28931002
+2016-10-20 21:04:17	irker746	[14:56:45] roundup-bot #1456/Rename module installation into activation: New changeset d6be676634e0 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:46] sale_invoice_grouping: Nicolas ?vrard sale_invoice_grouping:default * 109:fd086f4d2e2b / tests/scenario_sale_invoice_grouping.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:49] issue1456
+2016-10-20 21:04:17	irker746	[14:56:50] review28931002
+2016-10-20 21:04:17	irker746	[14:56:51] roundup-bot #1456/Rename module installation into activation: New changeset fd086f4d2e2b by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:51] sale_opportunity: Nicolas ?vrard sale_opportunity:default * 415:d376113fbca9 / tests/scenario_sale_opportunity.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:54] issue1456
+2016-10-20 21:04:17	irker746	[14:56:54] review28931002
+2016-10-20 21:04:17	irker746	[14:56:55] roundup-bot #1456/Rename module installation into activation: New changeset d376113fbca9 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:56:56] sale_price_list: Nicolas ?vrard sale_price_list:default * 209:4f9239ef0153 / tests/scenario_sale_price_list.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:56:58] issue1456
+2016-10-20 21:04:17	irker746	[14:56:59] review28931002
+2016-10-20 21:04:17	irker746	[14:57:00] roundup-bot #1456/Rename module installation into activation: New changeset 4f9239ef0153 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:02] pokoli #5962/Allow to override cache implementation: [testing] Here is review33491003 that implements it. https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[14:57:02] sale_promotion: Nicolas ?vrard sale_promotion:default * 34:8429eefa053c / tests/scenario_sale_promotion.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:04] issue1456
+2016-10-20 21:04:17	irker746	[14:57:05] review28931002
+2016-10-20 21:04:17	irker746	[14:57:07] roundup-bot #1456/Rename module installation into activation: New changeset 8429eefa053c by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:08] sale_shipment_cost: Nicolas ?vrard sale_shipment_cost:default * 279:59ce13bbc0b7 / tests/scenario_sale_shipment_cost.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:10] issue1456
+2016-10-20 21:04:17	irker746	[14:57:11] review28931002
+2016-10-20 21:04:17	irker746	[14:57:12] roundup-bot #1456/Rename module installation into activation: New changeset 59ce13bbc0b7 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:12] sale_shipment_grouping: Nicolas ?vrard sale_shipment_grouping:default * 74:99006eb1f5ee / tests/scenario_sale_shipment_grouping.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:14] issue1456
+2016-10-20 21:04:17	irker746	[14:57:16] review28931002
+2016-10-20 21:04:17	irker746	[14:57:17] roundup-bot #1456/Rename module installation into activation: New changeset 99006eb1f5ee by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:18] sale_stock_quantity: Nicolas ?vrard sale_stock_quantity:default * 31:12b35e6e2425 / tests/scenario_sale_stock_quantity.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:20] issue1456
+2016-10-20 21:04:17	irker746	[14:57:21] review28931002
+2016-10-20 21:04:17	irker746	[14:57:22] roundup-bot #1456/Rename module installation into activation: New changeset 12b35e6e2425 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:23] sale_supply: Nicolas ?vrard sale_supply:default * 171:7141add5e00d / tests/scenario_sale_supply.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:25] issue1456
+2016-10-20 21:04:17	irker746	[14:57:26] review28931002
+2016-10-20 21:04:17	irker746	[14:57:27] roundup-bot #1456/Rename module installation into activation: New changeset 7141add5e00d by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:28] sale_supply_drop_shipment: Nicolas ?vrard sale_supply_drop_shipment:default * 196:7c7496fdaa83 / tests/scenario_sale_supply_drop_shipment.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:30] issue1456
+2016-10-20 21:04:17	irker746	[14:57:31] review28931002
+2016-10-20 21:04:17	irker746	[14:57:32] roundup-bot #1456/Rename module installation into activation: New changeset 7c7496fdaa83 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:33] stock: Nicolas ?vrard stock:default * 1784:1701b3459921 / tests/scenario_stock_average_cost_price.rst tests/scenario_stock_inventory.rst tests/scenario_stock_reporting.rst tests/scenario_stock_shipment_internal.rst tests/scenario_stock_shipment_out.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:35] issue1456
+2016-10-20 21:04:17	irker746	[14:57:36] review28931002
+2016-10-20 21:04:17	irker746	[14:57:37] roundup-bot #1456/Rename module installation into activation: New changeset 1701b3459921 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:38] stock_lot: Nicolas ?vrard stock_lot:default * 209:6c6e83b2c599 / tests/scenario_stock_lot_shipment_out.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:40] issue1456
+2016-10-20 21:04:17	irker746	[14:57:41] review28931002
+2016-10-20 21:04:17	irker746	[14:57:42] roundup-bot #1456/Rename module installation into activation: New changeset 6c6e83b2c599 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:43] stock_package: Nicolas ?vrard stock_package:default * 92:ba8dd05d115d / tests/scenario_stock_package.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:45] issue1456
+2016-10-20 21:04:17	irker746	[14:57:46] review28931002
+2016-10-20 21:04:17	irker746	[14:57:47] roundup-bot #1456/Rename module installation into activation: New changeset ba8dd05d115d by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:48] stock_product_location: Nicolas ?vrard stock_product_location:default * 283:13b307088b8e / tests/scenario_stock_product_location.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:50] issue1456
+2016-10-20 21:04:17	irker746	[14:57:51] review28931002
+2016-10-20 21:04:17	irker746	[14:57:52] roundup-bot #1456/Rename module installation into activation: New changeset 13b307088b8e by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:53] stock_supply: Nicolas ?vrard stock_supply:default * 782:920bf09790e5 / tests/scenario_stock_internal_supply.rst tests/scenario_stock_supply_purchase_request.rst: Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[14:57:55] issue1456
+2016-10-20 21:04:17	irker746	[14:57:56] review28931002
+2016-10-20 21:04:17	irker746	[14:57:57] roundup-bot #1456/Rename module installation into activation: New changeset 920bf09790e5 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[14:57:58] oxid #5963/Links on website not working tryton.org: [new] 1. From: http://www.tryton.org/download.html Link Name: We suggest using the hgnested extension Link:http://... https://bugs.tryton.org/issue5963
+2016-10-20 21:04:17	irker746	[14:59:35] nicoe #2172/product field is required when creating sale lines in module sale_opportunity: I think so too. https://bugs.tryton.org/issue2172
+2016-10-20 21:04:17	irker746	[15:21:40] reviewbot #3278/It should be possible to define the default price_list used on parties: review26801002 updated at https://codereview.tryton.org/26801002/#ps100001 https://bugs.tryton.org/issue3278
+2016-10-20 21:04:17	irker746	[15:21:42] reviewbot #5962/Allow to override cache implementation: New review33491003 at https://codereview.tryton.org/33491003/#ps1 https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[15:21:57] reviewbot #3551/Hide toolbar on richtext widget when field in readonly state: review9741002 updated at https://codereview.tryton.org/9741002/#ps60001 https://bugs.tryton.org/issue3551
+2016-10-20 21:04:17	irker746	[15:22:13] reviewbot #3551/Hide toolbar on richtext widget when field in readonly state: review7521002 updated at https://codereview.tryton.org/7521002/#ps80001 https://bugs.tryton.org/issue3551
+2016-10-20 21:04:17	irker746	[15:22:27] reviewbot #5804/Implement translatable fields in sao: review28681002 updated at https://codereview.tryton.org/28681002/#ps220001 https://bugs.tryton.org/issue5804
+2016-10-20 21:04:17	irker746	[15:22:31] reviewbot #2939/account_asset must prevent closing period/fiscalyear: review32701002 updated at https://codereview.tryton.org/32701002/#ps40001 https://bugs.tryton.org/issue2939
+2016-10-20 21:04:17	irker746	[15:57:05] reviewbot #5962/Allow to override cache implementation: review33491003 updated at https://codereview.tryton.org/33491003/#ps20001 https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[15:57:21] reviewbot #2939/account_asset must prevent closing period/fiscalyear: review32701002 updated at https://codereview.tryton.org/32701002/#ps60001 https://bugs.tryton.org/issue2939
+2016-10-20 21:04:17	irker746	[16:03:29] trytond: Nicolas ?vrard trytond:default * 5647:9bb9fe4cd312 / : Use activate instead of install for module activation
+2016-10-20 21:04:17	irker746	[16:03:31] issue1456
+2016-10-20 21:04:17	irker746	[16:03:32] review28931002
+2016-10-20 21:04:17	irker746	[16:03:33] roundup-bot #1456/Rename module installation into activation: New changeset 9bb9fe4cd312 by Nicolas ?vrard in branch 'default': Use activate instead of install for module activati... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[16:12:18] jan #4579/Client/Server: Add support for datetime_field to fields.Reference: Review for client: review27721002 https://bugs.tryton.org/issue4579
+2016-10-20 21:04:17	irker746	[16:24:10] reviewbot #3551/Hide toolbar on richtext widget when field in readonly state: New review31601002 at https://codereview.tryton.org/31601002/#ps1 https://bugs.tryton.org/issue3551
+2016-10-20 21:04:17	irker746	[16:24:17] reviewbot #4579/Client/Server: Add support for datetime_field to fields.Reference: New review27721002 at https://codereview.tryton.org/27721002/#ps20001 https://bugs.tryton.org/issue4579
+2016-10-20 21:04:17	irker746	[16:53:43] reviewbot #2172/product field is required when creating sale lines in module sale_opportunity: New review30651002 at https://codereview.tryton.org/30651002/#ps1 https://bugs.tryton.org/issue2172
+2016-10-20 21:04:17	irker746	[17:05:37] lukio #2172/product field is required when creating sale lines in module sale_opportunity: I also add the unit_price field, because if the product doesn't exists, that field is required at sale line. https://bugs.tryton.org/issue2172
+2016-10-20 21:04:17	irker746	[17:17:15] oxid #5960/Build a script to install al modules dependency: [testing] I upload review25741002 https://bugs.tryton.org/issue5960
+2016-10-20 21:04:17	irker746	[17:32:35] reviewbot #5962/Allow to override cache implementation: review33491003 updated at https://codereview.tryton.org/33491003/#ps40001 https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[17:32:52] reviewbot #5960/Build a script to install al modules dependency: New review25741002 at https://codereview.tryton.org/25741002/#ps1 https://bugs.tryton.org/issue5960
+2016-10-20 21:04:17	irker746	[17:34:28] pokoli #5962/Allow to override cache implementation: I also uploaded a redis implementation on https://bitbucket.org/pokoli/redis-tryton so you can test it with redis also. https://bugs.tryton.org/issue5962
+2016-10-20 21:04:17	irker746	[17:56:33] reviewbot #5715/Favorites menu in sao: review29391002 updated at https://codereview.tryton.org/29391002/#ps340001 https://bugs.tryton.org/issue5715
+2016-10-20 21:04:17	irker746	[18:20:49] pokoli #5963/Links on website not working tryton.org: [chatting] The website repository can be cloned from and http://hg.tryton.org/www.tryton.org and you can propose a co... https://bugs.tryton.org/issue5963
+2016-10-20 21:04:17	irker746	[18:28:22] ced #5964/Add optional support for weasyprint: [new] When the report is HTML, we could use weasyprint to convert to PDF. https://bugs.tryton.org/issue5964
+2016-10-20 21:04:17	irker746	[18:28:39] ced #5964/Add optional support for weasyprint: [chatting] http://weasyprint.org/ https://bugs.tryton.org/issue5964
+2016-10-20 21:04:17	irker746	[18:37:57] nicoe #1456/Rename module installation into activation: [chatting] Here is the review for the remaining changes in non obvious part of trytond. https://codereview.tryton.... https://bugs.tryton.org/issue1456
+2016-10-20 21:04:17	irker746	[18:55:26] reviewbot #5715/Favorites menu in sao: review29391002 updated at https://codereview.tryton.org/29391002/#ps360001 https://bugs.tryton.org/issue5715
+2016-10-20 21:04:17	irker746	[18:55:28] reviewbot #2172/product field is required when creating sale lines in module sale_opportunity: review30651002 updated at https://codereview.tryton.org/30651002/#ps20001 https://bugs.tryton.org/issue2172
+2016-10-20 21:04:17	irker746	[18:55:29] reviewbot #2939/account_asset must prevent closing period/fiscalyear: review32701002 updated at https://codereview.tryton.org/32701002/#ps80001 https://bugs.tryton.org/issue2939
+2016-10-20 21:04:17	***	Playback Complete.
+2016-10-20 21:04:21	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-20 21:50:11	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-20 21:50:11	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-20 21:50:11	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-20 21:50:11	--	Channel #tryton-commit: 4 nicks (1 op, 0 voices, 3 normals)
+2016-10-20 21:50:16	--	Channel created on dg, 24 gen 2010 23:15:59
+2016-10-20 21:55:38	<--	irker746 (~irker@moretus.b2ck.com) has quit (Quit: transmission timeout)
+2016-10-20 21:59:00	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton-commit
+2016-10-20 21:59:00	--	Topic for #tryton-commit is "Tryton's Readonly Commit Channel || no talk in here please"
+2016-10-20 21:59:00	--	Topic set by cedk on ds, 13 feb 2010 15:30:56
+2016-10-20 21:59:00	--	Channel #tryton-commit: 3 nicks (1 op, 0 voices, 2 normals)
+2016-10-20 21:59:04	--	Channel created on dg, 24 gen 2010 23:15:59

@@ -1,0 +1,618 @@
+2016-10-19 20:39:47	--	irc: connecting to server koolpi.com/6667...
+2016-10-19 20:39:49	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 20:39:49	=!=	irc: reading data on socket: error 104 La màquina remota ha reiniciat la connexió
+2016-10-19 20:39:49	--	irc: disconnecting from server...
+2016-10-19 20:39:49	--	irc: disconnected from server
+2016-10-19 20:39:49	--	irc: reconnecting to server in 10 seconds
+2016-10-19 20:39:59	--	irc: reconnecting to server...
+2016-10-19 20:39:59	--	irc: connecting to server koolpi.com/6667...
+2016-10-19 20:39:59	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 20:40:00	=!=	irc: reading data on socket: error 104 La màquina remota ha reiniciat la connexió
+2016-10-19 20:40:00	--	irc: disconnecting from server...
+2016-10-19 20:40:00	--	irc: disconnected from server
+2016-10-19 20:40:00	--	irc: reconnecting to server in 20 seconds
+2016-10-19 20:40:20	--	irc: reconnecting to server...
+2016-10-19 20:40:20	--	irc: connecting to server koolpi.com/6667...
+2016-10-19 20:40:20	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 20:40:21	=!=	irc: reading data on socket: error 104 La màquina remota ha reiniciat la connexió
+2016-10-19 20:40:21	--	irc: disconnecting from server...
+2016-10-19 20:40:21	--	irc: disconnected from server
+2016-10-19 20:40:21	--	irc: reconnecting to server in 40 seconds
+2016-10-19 20:40:38		irc: auto-reconnection is cancelled
+2016-10-19 20:40:38	--	irc: disconnected from server
+2016-10-19 20:40:50	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:40:52	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:40:52	--	gnutls: receiving 1 certificate
+2016-10-19 20:40:52	--	 - certificate[1] info:
+2016-10-19 20:40:52	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:40:52	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:40:52	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:40:52	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:40:52	=!=	irc: TLS handshake failed
+2016-10-19 20:40:52	=!=	irc: error: Error in the certificate.
+2016-10-19 20:40:52	--	irc: reconnecting to server in 10 seconds
+2016-10-19 20:41:02	--	irc: reconnecting to server...
+2016-10-19 20:41:02	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:41:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:41:03	--	gnutls: receiving 1 certificate
+2016-10-19 20:41:03	--	 - certificate[1] info:
+2016-10-19 20:41:03	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:41:03	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:41:03	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:41:03	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:41:03	=!=	irc: TLS handshake failed
+2016-10-19 20:41:03	=!=	irc: error: Error in the certificate.
+2016-10-19 20:41:03	--	irc: reconnecting to server in 20 seconds
+2016-10-19 20:41:23	--	irc: reconnecting to server...
+2016-10-19 20:41:23	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:41:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:41:23	--	gnutls: receiving 1 certificate
+2016-10-19 20:41:23	--	 - certificate[1] info:
+2016-10-19 20:41:23	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:41:23	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:41:23	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:41:23	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:41:23	=!=	irc: TLS handshake failed
+2016-10-19 20:41:23	=!=	irc: error: Error in the certificate.
+2016-10-19 20:41:23	--	irc: reconnecting to server in 40 seconds
+2016-10-19 20:42:03	--	irc: reconnecting to server...
+2016-10-19 20:42:03	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:42:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:42:03	--	gnutls: receiving 1 certificate
+2016-10-19 20:42:03	--	 - certificate[1] info:
+2016-10-19 20:42:03	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:42:03	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:42:03	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:42:03	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:42:03	=!=	irc: TLS handshake failed
+2016-10-19 20:42:03	=!=	irc: error: Error in the certificate.
+2016-10-19 20:42:03	--	irc: reconnecting to server in 1 minute, 20 seconds
+2016-10-19 20:43:23	--	irc: reconnecting to server...
+2016-10-19 20:43:23	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:43:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:43:23	--	gnutls: receiving 1 certificate
+2016-10-19 20:43:23	--	 - certificate[1] info:
+2016-10-19 20:43:23	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:43:23	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:43:23	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:43:23	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:43:23	=!=	irc: TLS handshake failed
+2016-10-19 20:43:23	=!=	irc: error: Error in the certificate.
+2016-10-19 20:43:23	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2016-10-19 20:45:04	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:45:04	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:45:04	--	gnutls: receiving 1 certificate
+2016-10-19 20:45:04	--	 - certificate[1] info:
+2016-10-19 20:45:04	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:45:04	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:45:04	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:45:04	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:45:05	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 20:45:05	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-19 20:45:05	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-19 20:45:05	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-19 20:45:05	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-19 20:45:05	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-19 20:45:05	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-19 20:45:05	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-19 20:45:05	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-19 20:45:05	--	29 :IRC Operators online
+2016-10-19 20:45:05	--	47918 :channels formed
+2016-10-19 20:45:05	--	I have 11009 clients and 1 servers
+2016-10-19 20:45:05	--	11009 12001 :Current local users 11009, max 12001
+2016-10-19 20:45:05	--	84290 90995 :Current global users 84290, max 90995
+2016-10-19 20:45:05	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-19 20:45:05	--	You are now known as pokoli
+2016-10-19 20:45:05	--	- karatkievich.freenode.net Message of the Day -
+2016-10-19 20:45:05	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-19 20:45:05	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-19 20:45:05	--	- this server!
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-19 20:45:05	--	- romantic writer. After his first published work was a poem
+2016-10-19 20:45:05	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-19 20:45:05	--	- essays, articles and screenplays. His probably most popular
+2016-10-19 20:45:05	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-19 20:45:05	--	- novels are about Belarus's past.  He won many national
+2016-10-19 20:45:05	--	- literary awards and influenced the Belarusian literature's
+2016-10-19 20:45:05	--	- development of historical themes.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- Welcome to freenode - supporting the free and open source
+2016-10-19 20:45:05	--	- software communities since 1998.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- By connecting to freenode you indicate that you have read and
+2016-10-19 20:45:05	--	- accept our policies as set out on http://www.freenode.net
+2016-10-19 20:45:05	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-19 20:45:05	--	- any network-related questions or queries, where a number of
+2016-10-19 20:45:05	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-19 20:45:05	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-19 20:45:05	--	- real-life collaboration.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- We would like to thank Private Internet Access
+2016-10-19 20:45:05	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-19 20:45:05	--	- organisations that help keep freenode and our other projects
+2016-10-19 20:45:05	--	- running for their sustained support.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	- In particular we would like to thank the sponsor
+2016-10-19 20:45:05	--	- of this server, details of which can be found above.
+2016-10-19 20:45:05	--	-
+2016-10-19 20:45:05	--	End of /MOTD command.
+2016-10-19 20:45:05	--	User mode [+i] by pokoli
+2016-10-19 20:45:05	--	You have been marked as being away
+2016-10-19 20:45:05	--	You are no longer marked as being away
+2016-10-19 20:50:04	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2016-10-19 20:50:04	--	irc: disconnecting from server...
+2016-10-19 20:50:04	--	irc: disconnected from server
+2016-10-19 20:50:04	--	irc: reconnecting to server in 10 seconds
+2016-10-19 20:50:14	--	irc: reconnecting to server...
+2016-10-19 20:50:14	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 20:50:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 20:50:14	--	gnutls: receiving 1 certificate
+2016-10-19 20:50:14	--	 - certificate[1] info:
+2016-10-19 20:50:14	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 20:50:14	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 20:50:14	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 20:50:14	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 20:50:14	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 20:50:15	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-19 20:50:15	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-19 20:50:15	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-19 20:50:15	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-19 20:50:15	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-19 20:50:15	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-19 20:50:15	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-19 20:50:15	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-19 20:50:15	--	29 :IRC Operators online
+2016-10-19 20:50:15	--	47918 :channels formed
+2016-10-19 20:50:15	--	I have 11009 clients and 1 servers
+2016-10-19 20:50:15	--	11009 12001 :Current local users 11009, max 12001
+2016-10-19 20:50:15	--	84290 90995 :Current global users 84290, max 90995
+2016-10-19 20:50:15	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-19 20:50:15	--	- karatkievich.freenode.net Message of the Day -
+2016-10-19 20:50:15	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-19 20:50:15	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-19 20:50:15	--	- this server!
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-19 20:50:15	--	- romantic writer. After his first published work was a poem
+2016-10-19 20:50:15	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-19 20:50:15	--	- essays, articles and screenplays. His probably most popular
+2016-10-19 20:50:15	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-19 20:50:15	--	- novels are about Belarus's past.  He won many national
+2016-10-19 20:50:15	--	- literary awards and influenced the Belarusian literature's
+2016-10-19 20:50:15	--	- development of historical themes.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- Welcome to freenode - supporting the free and open source
+2016-10-19 20:50:15	--	- software communities since 1998.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- By connecting to freenode you indicate that you have read and
+2016-10-19 20:50:15	--	- accept our policies as set out on http://www.freenode.net
+2016-10-19 20:50:15	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-19 20:50:15	--	- any network-related questions or queries, where a number of
+2016-10-19 20:50:15	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-19 20:50:15	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-19 20:50:15	--	- real-life collaboration.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- We would like to thank Private Internet Access
+2016-10-19 20:50:15	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-19 20:50:15	--	- organisations that help keep freenode and our other projects
+2016-10-19 20:50:15	--	- running for their sustained support.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	- In particular we would like to thank the sponsor
+2016-10-19 20:50:15	--	- of this server, details of which can be found above.
+2016-10-19 20:50:15	--	-
+2016-10-19 20:50:15	--	End of /MOTD command.
+2016-10-19 20:50:15	--	User mode [+i] by pokoli
+2016-10-19 23:25:15	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2016-10-19 23:25:15	--	irc: disconnecting from server...
+2016-10-19 23:25:15	--	irc: disconnected from server
+2016-10-19 23:25:15	--	irc: reconnecting to server in 10 seconds
+2016-10-19 23:25:25	--	irc: reconnecting to server...
+2016-10-19 23:25:25	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-19 23:25:25	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-19 23:25:25	--	gnutls: receiving 1 certificate
+2016-10-19 23:25:25	--	 - certificate[1] info:
+2016-10-19 23:25:25	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-19 23:25:25	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-19 23:25:25	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-19 23:25:25	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-19 23:25:25	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-19 23:25:25	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-19 23:25:25	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-19 23:25:25	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-19 23:25:25	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-19 23:25:25	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-19 23:25:25	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-19 23:25:25	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-19 23:25:25	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-19 23:25:25	--	29 :IRC Operators online
+2016-10-19 23:25:25	--	47918 :channels formed
+2016-10-19 23:25:25	--	I have 11009 clients and 1 servers
+2016-10-19 23:25:25	--	11009 12001 :Current local users 11009, max 12001
+2016-10-19 23:25:25	--	84290 90995 :Current global users 84290, max 90995
+2016-10-19 23:25:25	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-19 23:25:25	--	- karatkievich.freenode.net Message of the Day -
+2016-10-19 23:25:25	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-19 23:25:25	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-19 23:25:25	--	- this server!
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-19 23:25:25	--	- romantic writer. After his first published work was a poem
+2016-10-19 23:25:25	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-19 23:25:25	--	- essays, articles and screenplays. His probably most popular
+2016-10-19 23:25:25	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-19 23:25:25	--	- novels are about Belarus's past.  He won many national
+2016-10-19 23:25:25	--	- literary awards and influenced the Belarusian literature's
+2016-10-19 23:25:25	--	- development of historical themes.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- Welcome to freenode - supporting the free and open source
+2016-10-19 23:25:25	--	- software communities since 1998.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- By connecting to freenode you indicate that you have read and
+2016-10-19 23:25:25	--	- accept our policies as set out on http://www.freenode.net
+2016-10-19 23:25:25	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-19 23:25:25	--	- any network-related questions or queries, where a number of
+2016-10-19 23:25:25	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-19 23:25:25	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-19 23:25:25	--	- real-life collaboration.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- We would like to thank Private Internet Access
+2016-10-19 23:25:25	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-19 23:25:25	--	- organisations that help keep freenode and our other projects
+2016-10-19 23:25:25	--	- running for their sustained support.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	- In particular we would like to thank the sponsor
+2016-10-19 23:25:25	--	- of this server, details of which can be found above.
+2016-10-19 23:25:25	--	-
+2016-10-19 23:25:25	--	End of /MOTD command.
+2016-10-19 23:25:25	--	User mode [+i] by pokoli
+2016-10-20 01:05:34	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 01:05:35	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 01:05:35	--	gnutls: receiving 1 certificate
+2016-10-20 01:05:35	--	 - certificate[1] info:
+2016-10-20 01:05:35	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 01:05:35	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 01:05:35	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 01:05:35	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 01:05:35	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 01:05:35	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-20 01:05:35	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-20 01:05:35	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-20 01:05:35	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-20 01:05:35	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-20 01:05:35	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-20 01:05:35	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-20 01:05:35	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-20 01:05:35	--	29 :IRC Operators online
+2016-10-20 01:05:35	--	47918 :channels formed
+2016-10-20 01:05:35	--	I have 11009 clients and 1 servers
+2016-10-20 01:05:35	--	11009 12001 :Current local users 11009, max 12001
+2016-10-20 01:05:35	--	84290 90995 :Current global users 84290, max 90995
+2016-10-20 01:05:35	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-20 01:05:35	--	You are now known as pokoli
+2016-10-20 01:05:35	--	- karatkievich.freenode.net Message of the Day -
+2016-10-20 01:05:35	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-20 01:05:35	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-20 01:05:35	--	- this server!
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-20 01:05:35	--	- romantic writer. After his first published work was a poem
+2016-10-20 01:05:35	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-20 01:05:35	--	- essays, articles and screenplays. His probably most popular
+2016-10-20 01:05:35	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-20 01:05:35	--	- novels are about Belarus's past.  He won many national
+2016-10-20 01:05:35	--	- literary awards and influenced the Belarusian literature's
+2016-10-20 01:05:35	--	- development of historical themes.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- Welcome to freenode - supporting the free and open source
+2016-10-20 01:05:35	--	- software communities since 1998.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- By connecting to freenode you indicate that you have read and
+2016-10-20 01:05:35	--	- accept our policies as set out on http://www.freenode.net
+2016-10-20 01:05:35	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-20 01:05:35	--	- any network-related questions or queries, where a number of
+2016-10-20 01:05:35	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-20 01:05:35	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-20 01:05:35	--	- real-life collaboration.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- We would like to thank Private Internet Access
+2016-10-20 01:05:35	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-20 01:05:35	--	- organisations that help keep freenode and our other projects
+2016-10-20 01:05:35	--	- running for their sustained support.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	- In particular we would like to thank the sponsor
+2016-10-20 01:05:35	--	- of this server, details of which can be found above.
+2016-10-20 01:05:35	--	-
+2016-10-20 01:05:35	--	End of /MOTD command.
+2016-10-20 01:05:35	--	User mode [+i] by pokoli
+2016-10-20 01:05:35	--	You have been marked as being away
+2016-10-20 01:05:35	--	You are no longer marked as being away
+2016-10-20 10:00:18	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 10:00:18	=!=	irc: connection refused
+2016-10-20 10:00:18	--	irc: reconnecting to server in 10 seconds
+2016-10-20 10:00:28	--	irc: reconnecting to server...
+2016-10-20 10:00:28	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 10:00:28	=!=	irc: connection refused
+2016-10-20 10:00:28	--	irc: reconnecting to server in 20 seconds
+2016-10-20 21:04:16	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:04:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:04:17	--	gnutls: receiving 1 certificate
+2016-10-20 21:04:17	--	 - certificate[1] info:
+2016-10-20 21:04:17	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:04:17	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:04:17	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:04:17	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:04:17	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:04:17	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-20 21:04:17	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-20 21:04:17	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-20 21:04:17	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-20 21:04:17	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-20 21:04:17	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-20 21:04:17	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-20 21:04:17	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-20 21:04:17	--	29 :IRC Operators online
+2016-10-20 21:04:17	--	47918 :channels formed
+2016-10-20 21:04:17	--	I have 11009 clients and 1 servers
+2016-10-20 21:04:17	--	11009 12001 :Current local users 11009, max 12001
+2016-10-20 21:04:17	--	84290 90995 :Current global users 84290, max 90995
+2016-10-20 21:04:17	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-20 21:04:17	--	You are now known as pokoli
+2016-10-20 21:04:17	--	- karatkievich.freenode.net Message of the Day -
+2016-10-20 21:04:17	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-20 21:04:17	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-20 21:04:17	--	- this server!
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-20 21:04:17	--	- romantic writer. After his first published work was a poem
+2016-10-20 21:04:17	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-20 21:04:17	--	- essays, articles and screenplays. His probably most popular
+2016-10-20 21:04:17	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-20 21:04:17	--	- novels are about Belarus's past.  He won many national
+2016-10-20 21:04:17	--	- literary awards and influenced the Belarusian literature's
+2016-10-20 21:04:17	--	- development of historical themes.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- Welcome to freenode - supporting the free and open source
+2016-10-20 21:04:17	--	- software communities since 1998.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- By connecting to freenode you indicate that you have read and
+2016-10-20 21:04:17	--	- accept our policies as set out on http://www.freenode.net
+2016-10-20 21:04:17	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-20 21:04:17	--	- any network-related questions or queries, where a number of
+2016-10-20 21:04:17	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-20 21:04:17	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-20 21:04:17	--	- real-life collaboration.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- We would like to thank Private Internet Access
+2016-10-20 21:04:17	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-20 21:04:17	--	- organisations that help keep freenode and our other projects
+2016-10-20 21:04:17	--	- running for their sustained support.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	- In particular we would like to thank the sponsor
+2016-10-20 21:04:17	--	- of this server, details of which can be found above.
+2016-10-20 21:04:17	--	-
+2016-10-20 21:04:17	--	End of /MOTD command.
+2016-10-20 21:04:17	--	User mode [+i] by pokoli
+2016-10-20 21:04:17	--	You have been marked as being away
+2016-10-20 21:04:18	--	You are no longer marked as being away
+2016-10-20 21:08:48	--	[Telesight] (~anthony@4dae0c97.ftth.telfortglasvezel.nl): purple
+2016-10-20 21:08:48	--	[Telesight] #tryton #gnu-health
+2016-10-20 21:08:48	--	[Telesight] kornbluth.freenode.net (Frankfurt, Germany)
+2016-10-20 21:08:48	--	[Telesight] End of /WHOIS list.
+2016-10-20 21:50:09	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:50:10	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:50:10	--	gnutls: receiving 1 certificate
+2016-10-20 21:50:10	--	 - certificate[1] info:
+2016-10-20 21:50:10	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:50:10	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:50:10	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:50:10	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:50:10	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:50:11	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-20 21:50:11	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-20 21:50:11	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-20 21:50:11	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-20 21:50:11	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-20 21:50:11	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-20 21:50:11	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-20 21:50:11	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-20 21:50:11	--	29 :IRC Operators online
+2016-10-20 21:50:11	--	47918 :channels formed
+2016-10-20 21:50:11	--	I have 11009 clients and 1 servers
+2016-10-20 21:50:11	--	11009 12001 :Current local users 11009, max 12001
+2016-10-20 21:50:11	--	84290 90995 :Current global users 84290, max 90995
+2016-10-20 21:50:11	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-20 21:50:11	--	You are now known as pokoli
+2016-10-20 21:50:11	--	- karatkievich.freenode.net Message of the Day -
+2016-10-20 21:50:11	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-20 21:50:11	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-20 21:50:11	--	- this server!
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-20 21:50:11	--	- romantic writer. After his first published work was a poem
+2016-10-20 21:50:11	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-20 21:50:11	--	- essays, articles and screenplays. His probably most popular
+2016-10-20 21:50:11	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-20 21:50:11	--	- novels are about Belarus's past.  He won many national
+2016-10-20 21:50:11	--	- literary awards and influenced the Belarusian literature's
+2016-10-20 21:50:11	--	- development of historical themes.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- Welcome to freenode - supporting the free and open source
+2016-10-20 21:50:11	--	- software communities since 1998.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- By connecting to freenode you indicate that you have read and
+2016-10-20 21:50:11	--	- accept our policies as set out on http://www.freenode.net
+2016-10-20 21:50:11	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-20 21:50:11	--	- any network-related questions or queries, where a number of
+2016-10-20 21:50:11	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-20 21:50:11	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-20 21:50:11	--	- real-life collaboration.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- We would like to thank Private Internet Access
+2016-10-20 21:50:11	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-20 21:50:11	--	- organisations that help keep freenode and our other projects
+2016-10-20 21:50:11	--	- running for their sustained support.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	- In particular we would like to thank the sponsor
+2016-10-20 21:50:11	--	- of this server, details of which can be found above.
+2016-10-20 21:50:11	--	-
+2016-10-20 21:50:11	--	End of /MOTD command.
+2016-10-20 21:50:11	--	User mode [+i] by pokoli
+2016-10-20 21:50:11	--	You have been marked as being away
+2016-10-20 21:50:11	--	You are no longer marked as being away
+2016-10-20 21:56:46	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:56:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:56:47	--	gnutls: receiving 1 certificate
+2016-10-20 21:56:47	--	 - certificate[1] info:
+2016-10-20 21:56:47	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:56:47	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:56:47	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:56:47	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:56:48	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:56:49	--	Password required
+2016-10-20 21:56:49	--	irc.znc.in: *** You need to send your password. Try /quote PASS <username>:<password>
+2016-10-20 21:57:48	=!=	irc: connection timeout (message 001 not received)
+2016-10-20 21:57:48	--	irc: disconnected from server
+2016-10-20 21:57:48	--	irc: reconnecting to server in 10 seconds
+2016-10-20 21:57:57	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:57:58	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:57:58	--	gnutls: receiving 1 certificate
+2016-10-20 21:57:58	--	 - certificate[1] info:
+2016-10-20 21:57:58	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:57:58	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:57:58	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:57:58	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:57:58	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:57:58	--	Password required
+2016-10-20 21:57:58	--	irc.znc.in: *** You need to send your password. Try /quote PASS <username>:<password>
+2016-10-20 21:58:58	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:58:59	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:58:59	--	gnutls: receiving 1 certificate
+2016-10-20 21:58:59	--	 - certificate[1] info:
+2016-10-20 21:58:59	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:58:59	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:58:59	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:58:59	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:58:59	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:59:00	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-20 21:59:00	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-20 21:59:00	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-20 21:59:00	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-20 21:59:00	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-20 21:59:00	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-20 21:59:00	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-20 21:59:00	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-20 21:59:00	--	29 :IRC Operators online
+2016-10-20 21:59:00	--	47918 :channels formed
+2016-10-20 21:59:00	--	I have 11009 clients and 1 servers
+2016-10-20 21:59:00	--	11009 12001 :Current local users 11009, max 12001
+2016-10-20 21:59:00	--	84290 90995 :Current global users 84290, max 90995
+2016-10-20 21:59:00	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-20 21:59:00	--	You are now known as pokoli
+2016-10-20 21:59:00	--	- karatkievich.freenode.net Message of the Day -
+2016-10-20 21:59:00	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-20 21:59:00	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-20 21:59:00	--	- this server!
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-20 21:59:00	--	- romantic writer. After his first published work was a poem
+2016-10-20 21:59:00	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-20 21:59:00	--	- essays, articles and screenplays. His probably most popular
+2016-10-20 21:59:00	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-20 21:59:00	--	- novels are about Belarus's past.  He won many national
+2016-10-20 21:59:00	--	- literary awards and influenced the Belarusian literature's
+2016-10-20 21:59:00	--	- development of historical themes.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- Welcome to freenode - supporting the free and open source
+2016-10-20 21:59:00	--	- software communities since 1998.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- By connecting to freenode you indicate that you have read and
+2016-10-20 21:59:00	--	- accept our policies as set out on http://www.freenode.net
+2016-10-20 21:59:00	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-20 21:59:00	--	- any network-related questions or queries, where a number of
+2016-10-20 21:59:00	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-10-20 21:59:00	--	- together with like-minded FOSS enthusiasts for talks and
+2016-10-20 21:59:00	--	- real-life collaboration.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- We would like to thank Private Internet Access
+2016-10-20 21:59:00	--	- (https://www.privateinternetaccess.com/) and the other
+2016-10-20 21:59:00	--	- organisations that help keep freenode and our other projects
+2016-10-20 21:59:00	--	- running for their sustained support.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	- In particular we would like to thank the sponsor
+2016-10-20 21:59:00	--	- of this server, details of which can be found above.
+2016-10-20 21:59:00	--	-
+2016-10-20 21:59:00	--	End of /MOTD command.
+2016-10-20 21:59:00	--	User mode [+i] by pokoli
+2016-10-20 21:59:00	--	You have been marked as being away
+2016-10-20 21:59:00	--	You are no longer marked as being away
+2016-10-20 21:59:43	--	irc: connecting to server koolpi.com/6667 (SSL)...
+2016-10-20 21:59:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-10-20 21:59:43	--	gnutls: receiving 1 certificate
+2016-10-20 21:59:43	--	 - certificate[1] info:
+2016-10-20 21:59:43	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=sergi,CN=host.unknown,EMAIL=sergi@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2016-04-28 14:24:21 UTC', expires `2026-04-26 14:24:21 UTC', SHA-1 fingerprint `1f6f525499502c7f438b5c24bc25bd03dfaa4502'
+2016-10-20 21:59:43	=!=	gnutls: the hostname in the certificate does NOT match "koolpi.com"
+2016-10-20 21:59:43	=!=	gnutls: peer's certificate is NOT trusted
+2016-10-20 21:59:43	=!=	gnutls: peer's certificate issuer is unknown
+2016-10-20 21:59:44	--	irc: connected to koolpi.com/6667 (91.121.101.203)
+2016-10-20 21:59:44	--	Welcome to the freenode Internet Relay Chat Network pokoli
+2016-10-20 21:59:44	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.4
+2016-10-20 21:59:44	--	This server was created Thu Sep 22 2016 at 20:50:21 UTC
+2016-10-20 21:59:44	--	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-10-20 21:59:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-10-20 21:59:44	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-10-20 21:59:44	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-10-20 21:59:44	--	There are 158 users and 84132 invisible on 28 servers
+2016-10-20 21:59:44	--	29 :IRC Operators online
+2016-10-20 21:59:44	--	47918 :channels formed
+2016-10-20 21:59:44	--	I have 11009 clients and 1 servers
+2016-10-20 21:59:44	--	11009 12001 :Current local users 11009, max 12001
+2016-10-20 21:59:44	--	84290 90995 :Current global users 84290, max 90995
+2016-10-20 21:59:44	--	Highest connection count: 12002 (12001 clients) (123276 connections received)
+2016-10-20 21:59:44	--	You are now known as pokoli
+2016-10-20 21:59:44	--	- karatkievich.freenode.net Message of the Day -
+2016-10-20 21:59:44	--	- Welcome to karatkievich.freenode.net. Thanks to
+2016-10-20 21:59:44	--	- http://www.tatacommunications.com/ for sponsoring
+2016-10-20 21:59:44	--	- this server!
+2016-10-20 21:59:44	--	-
+2016-10-20 21:59:44	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2016-10-20 21:59:44	--	- romantic writer. After his first published work was a poem
+2016-10-20 21:59:44	--	- in 1951, he followed up with novels, short stories, plays,
+2016-10-20 21:59:44	--	- essays, articles and screenplays. His probably most popular
+2016-10-20 21:59:44	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2016-10-20 21:59:44	--	- novels are about Belarus's past.  He won many national
+2016-10-20 21:59:44	--	- literary awards and influenced the Belarusian literature's
+2016-10-20 21:59:44	--	- development of historical themes.
+2016-10-20 21:59:44	--	-
+2016-10-20 21:59:44	--	-
+2016-10-20 21:59:44	--	- Welcome to freenode - supporting the free and open source
+2016-10-20 21:59:44	--	- software communities since 1998.
+2016-10-20 21:59:44	--	-
+2016-10-20 21:59:44	--	- By connecting to freenode you indicate that you have read and
+2016-10-20 21:59:44	--	- accept our policies as set out on http://www.freenode.net
+2016-10-20 21:59:44	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-10-20 21:59:44	--	- any network-related questions or queries, where a number of
+2016-10-20 21:59:44	--	- volunteer staff and helpful users will be happy to assist you.
+2016-10-20 21:59:44	--	-
+2016-1

@@ -1,0 +1,65 @@
+2016-10-19 20:45:05	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-19 20:45:05	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-19 20:45:05	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-19 20:45:05	--	Channel #tryton: 27 nicks (1 op, 0 voices, 26 normals)
+2016-10-19 20:45:05	***	Buffer Playback...
+2016-10-19 20:45:05	v178	[20:22:03] pokoli, wow, thanks
+2016-10-19 20:45:05	v178	[20:22:09] that was it
+2016-10-19 20:45:05	***	Playback Complete.
+2016-10-19 20:45:05	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-19 20:50:04	pokoli	v178: you are welcome :) 
+2016-10-19 20:50:04	--	irc: disconnected from server
+2016-10-19 20:50:15	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-19 20:50:15	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-19 20:50:15	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-19 20:50:15	--	Channel #tryton: 27 nicks (1 op, 0 voices, 26 normals)
+2016-10-19 20:50:27	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-19 20:57:35	pokoli	v178: you are welcome :) 
+2016-10-19 21:20:34	v178	I will look into submitting for a "better" response
+2016-10-19 21:20:40	v178	submitting a patch*
+2016-10-19 21:21:11	v178	Incorrect server version suggests just that - a version mismatch
+2016-10-19 21:21:24	v178	a better response would be "No response." ;-)
+2016-10-19 21:23:21	<--	Piiteri (~Thunderbi@213-243-190-33.bb.dnainternet.fi) has quit (Ping timeout: 260 seconds)
+2016-10-19 23:12:04	<--	Telesight (~anthony@4dae0c97.ftth.telfortglasvezel.nl) has quit (Quit: Leaving.)
+2016-10-19 23:23:35	pokoli	v178: actualy this is fixed on the latest tryton version ;)
+2016-10-19 23:25:15	--	irc: disconnected from server
+2016-10-19 23:25:25	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-19 23:25:25	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-19 23:25:25	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-19 23:25:25	--	Channel #tryton: 24 nicks (1 op, 0 voices, 23 normals)
+2016-10-19 23:25:35	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-19 23:35:25	-->	cedk (~ced@gentoo/developer/cedk) has joined #tryton
+2016-10-19 23:47:35	-->	JosDzG (~Thunderbi@fixed-188-72-187-188-72-36.iusacell.net) has joined #tryton
+2016-10-19 23:54:24	-->	kstenger (~karla@167.56.249.219) has joined #tryton
+2016-10-20 00:02:17	-->	Timitos (~kpreisler@167.237.15.37.dynamic.jazztel.es) has joined #tryton
+2016-10-20 00:28:03	<--	kstenger (~karla@167.56.249.219) has quit (Ping timeout: 256 seconds)
+2016-10-20 00:31:04	<--	Timitos (~kpreisler@167.237.15.37.dynamic.jazztel.es) has quit (Quit: Leaving.)
+2016-10-20 01:05:35	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-20 01:05:35	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-20 01:05:35	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-20 01:05:35	--	Channel #tryton: 26 nicks (1 op, 0 voices, 25 normals)
+2016-10-20 01:05:35	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-20 21:04:17	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-20 21:04:17	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-20 21:04:17	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-20 21:04:17	--	Channel #tryton: 25 nicks (1 op, 0 voices, 24 normals)
+2016-10-20 21:04:17	***	Buffer Playback...
+2016-10-20 21:04:17	postal_blab	[14:42:14] where does ModelSingleton stores the data in the database? e.g. account.configuration
+2016-10-20 21:04:17	postal_blab	[14:48:13] and how do i access ModelSingletons with proteus?
+2016-10-20 21:04:17	Piiteri	[18:05:54] What are party categories typically used for?
+2016-10-20 21:04:17	***	Playback Complete.
+2016-10-20 21:04:18	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-20 21:05:02	pokoli	postal_blab: in the acccount_configuration table, which only have one register as this is a singleton
+2016-10-20 21:05:23	pokoli	Piiteri: to categorize the parties in whatever segmentation lists you want
+2016-10-20 21:15:58	<--	nramirezuy (~nramirezu@r167-62-153-77.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 250 seconds)
+2016-10-20 21:25:54	-->	nramirezuy (~nramirezu@r167-62-153-77.dialup.adsl.anteldata.net.uy) has joined #tryton
+2016-10-20 21:50:11	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-20 21:50:11	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-20 21:50:11	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-20 21:50:11	--	Channel #tryton: 24 nicks (1 op, 0 voices, 23 normals)
+2016-10-20 21:50:11	--	Channel created on dv, 09 mai 2008 09:16:37
+2016-10-20 21:59:00	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #tryton
+2016-10-20 21:59:00	--	Topic for #tryton is "Tryton's Channel || Bug Tracker http://bugs.tryton.org/ || Wiki http://wiki.tryton.org/ || Google Groups http://groups.tryton.org/ || IRC Log http://www.tryton.org/~irclog/"
+2016-10-20 21:59:00	--	Topic set by cedk on dl, 23 jun 2008 17:16:04
+2016-10-20 21:59:00	--	Channel #tryton: 24 nicks (1 op, 0 voices, 23 normals)
+2016-10-20 21:59:00	--	Channel created on dv, 09 mai 2008 09:16:37

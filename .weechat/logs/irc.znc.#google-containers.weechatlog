@@ -1,0 +1,19 @@
+2016-10-19 20:45:05	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #google-containers
+2016-10-19 20:45:05	--	Topic for #google-containers is "Kubernetes, containers, cAdvisor, and friends | Kubernetes support is moving to Slack: Join at http://slack.kubernetes.io | Logged: https://botbot.me/freenode/google-containers | Support: http://stackoverflow.com/questions/tagged/kubernetes | Debug help: https://github.com/kubernetes/kubernetes/wiki/Debugging-FAQ | Group: https://groups.google.com/forum/#!forum/google-containers"
+2016-10-19 20:45:05	--	Topic set by vishh (uid32661@gateway/web/irccloud.com/x-yqfjceeekpqenebm) on dv, 11 set 2015 22:32:25
+2016-10-19 20:45:05	--	Channel #google-containers: 245 nicks (0 ops, 0 voices, 245 normals)
+2016-10-19 20:45:05	***	Buffer Playback...
+2016-10-19 20:45:05	--	Notice([kubot]): [20:19:35] [kubernetes] foxish deleted foxish-patch-2 at b9b753c: https://git.io/vP9wI
+2016-10-19 20:45:05	--	Notice([kubot]): [20:21:41] [kubernetes] r2d4 opened pull request #35147: Remove reference from addon-manager dockerfile (master...addon-manager-dockerfile) https://git.io/vP9wn
+2016-10-19 20:45:05	--	Notice([kubot]): [20:36:22] [kubernetes] k8s-merge-robot pushed 2 new commits to master: https://git.io/vP9oW
+2016-10-19 20:45:05	--	Notice([kubot]): [20:36:22] kubernetes/master 86f1a94 Scott Creeley: Adding default StorageClass annotation printout for resource_printer
+2016-10-19 20:45:05	--	Notice([kubot]): [20:36:22] kubernetes/master 91b7e1f Kubernetes Submit Queue: Merge pull request #34638 from screeley44/k8-get-sc...
+2016-10-19 20:45:05	***	Playback Complete.
+2016-10-19 20:45:15	--	Channel created on dc, 21 mai 2014 19:53:34
+2016-10-19 20:50:04	--	irc: disconnected from server
+2016-10-19 20:50:15	-->	pokoli (~pokoli@2001:41d0:1:9acb::1) has joined #google-containers
+2016-10-19 20:50:15	--	Topic for #google-containers is "Kubernetes, containers, cAdvisor, and friends | Kubernetes support is moving to Slack: Join at http://slack.kubernetes.io | Logged: https://botbot.me/freenode/google-containers | Support: http://stackoverflow.com/questions/tagged/kubernetes | Debug help: https://github.com/kubernetes/kubernetes/wiki/Debugging-FAQ | Group: https://groups.google.com/forum/#!forum/google-containers"
+2016-10-19 20:50:15	--	Topic set by vishh (uid32661@gateway/web/irccloud.com/x-yqfjceeekpqenebm) on dv, 11 set 2015 22:32:25
+2016-10-19 20:50:15	--	Channel #google-containers: 246 nicks (0 ops, 0 voices, 246 normals)
+2016-10-19 20:50:35	<--	pokoli (~pokoli@2001:41d0:1:9acb::1) has left #google-containers ("WeeChat 1.4")
+2016-10-19 20:50:39	--	Channel created on dc, 21 mai 2014 19:53:34
