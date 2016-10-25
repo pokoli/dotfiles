@@ -166,6 +166,8 @@ exec --no-startup-id owncloud
 exec --no-startup-id volumeicon
 # Start ssh-agent and add our keys
 exec --no-startup-id ssh-agent; ssh-add
+# Start tomboy with our notes
+exec --no-startup-id tomboy
 # Volume keys
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
