@@ -22,7 +22,7 @@ au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 " Allow pylakes vim plugin to open automatically
 filetype plugin indent on
 " Disbled pep messages for
-let g:PyFlakeDisabledMessages = 'E122,E123,E124,E126,E128'
+let g:PyFlakeDisabledMessages = 'E122,E123,E124,E126,E128,E309'
 
 " Remove trailing spaces before writing Change * with *.py to only remove on
 " python files
