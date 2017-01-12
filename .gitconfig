@@ -17,3 +17,5 @@
   dump = cat-file -p
 [pull]
 	rebase = true
+[push]
+	default = matching
