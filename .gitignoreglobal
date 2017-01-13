@@ -1,9 +1,14 @@
 *.pyc
+*.orig
 *.jasper
 node_modules
 build/
 dist/
-bower_components/
 *.egg-info/
 *.egg/
 *.eggs/
+.review.cfg
+.tox/
+bower_components/
+*.rej
+locale/*.json
