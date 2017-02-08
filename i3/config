@@ -168,8 +168,6 @@ exec --no-startup-id volumeicon
 exec --no-startup-id ssh-agent; ssh-add
 # Start tomboy with our notes
 exec --no-startup-id tomboy
-# Start volumeicon
-exec --no-startup-id volumeicon
 # Volume keys
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
