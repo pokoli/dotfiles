@@ -12,3 +12,4 @@ dist/
 bower_components/
 *.rej
 locale/*.json
+.coverage
