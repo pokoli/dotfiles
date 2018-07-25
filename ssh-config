@@ -1,5 +1,6 @@
 Host *
 	ForwardAgent yes
+	AddKeysToAgent yes
     ServerAliveInterval 120
     ServerAliveCountMax 30
     ControlMaster auto
