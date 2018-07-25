@@ -98,7 +98,7 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}%{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="⚡"
-. /usr/share/autojump/autojump.sh
+. /usr/share/autojump/autojump.zsh
 #alias
 alias flake8="flake8 --ignore='E122,E123,E124,E126,E128,E309,W503'"
 
@@ -106,7 +106,7 @@ alias flake8="flake8 --ignore='E122,E123,E124,E126,E128,E309,W503'"
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=~/projectes
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper.sh
 
 #TRYTOND configuration
 export TRYTOND_CONFIG=~/trytond.conf
