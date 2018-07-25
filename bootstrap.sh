@@ -9,6 +9,7 @@ function doIt() {
 		--exclude "trytond.conf" --exclude "i3" -avh --no-perms . ~;
     mkdir -p ~/.config/i3/;
 	rsync -avh ./i3/ ~/.config/i3/;
+	rsync -avh ./termite/ ~/.config/termite/;
 	source ~/.zshrc;
 }
 
