@@ -6,10 +6,8 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" --exclude "ssh-config" --exclude "bootstrap.sh" \
-		--exclude "trytond.conf" --exclude "i3" -avh --no-perms . ~;
+		--exclude "trytond.conf" -avh --no-perms . ~;
     mkdir -p ~/.config/i3/;
-	rsync -avh ./i3/ ~/.config/i3/;
-	rsync -avh ./termite/ ~/.config/termite/;
 	source ~/.zshrc;
 }
 
