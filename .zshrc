@@ -67,6 +67,12 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 #
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent -s > ~/.ssh-agent-thing
+fi
+if [[ "$SSH_AGENT_PID" == "" ]]; then
+    eval "$(<~/.ssh-agent-thing)"
+fi
 
 function prompt_char {
     git branch >/dev/null 2>/dev/null && echo '±' && return

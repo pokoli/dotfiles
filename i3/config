@@ -164,8 +164,6 @@ exec --no-startup-id nm-applet
 exec --no-startup-id owncloud
 # Automatically lauch volume applet
 exec --no-startup-id volumeicon
-# Start ssh-agent and add our keys
-exec --no-startup-id ssh-agent; ssh-add
 # Start tomboy with our notes
 exec --no-startup-id tomboy
 # Volume keys
