@@ -3,13 +3,11 @@ username = Sergi Almacellas Abellana <sergi@koolpi.com>
 ignore = /home/sergi/.hgignore
 
 [extensions]
-hgnested =
 hgreview =
 rebase =
 hgext.purge =
 color =
 pager =
-prompt = ~/.prompt.py
 mq =
 graphlog =
 histedit =
