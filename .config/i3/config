@@ -158,6 +158,8 @@ bar {
 }
 
 # Customizations
+# Start dunst notification daemon
+exec --no-startup-id dunst
 # Start network manager applet
 exec --no-startup-id nm-applet
 # Automatically start owncloud client
