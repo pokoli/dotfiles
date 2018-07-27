@@ -107,12 +107,6 @@ ZSH_THEME_GIT_PROMPT_DIRTY="⚡"
 . /usr/share/autojump/autojump.zsh
 #alias
 alias flake8="flake8 --ignore='E122,E123,E124,E126,E128,E309,W503'"
-alias tryton="python ~/projectes/nclone/tryton/bin/tryton -d"
-alias tryton4.0="python2 ~/tryton4.0/bin/tryton -d"
-alias tryton4.2="python2 ~/tryton4.2/bin/tryton -d"
-alias tryton4.4="python2 ~/tryton4.4/bin/tryton -d"
-alias tryton4.6="python2 ~/tryton4.6/bin/tryton -d"
-alias tryton4.8="python2 ~/tryton4.8/bin/tryton -d"
 
 # Environment variables
 export WORKON_HOME=~/.virtualenvs
