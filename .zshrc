@@ -51,6 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export EDITOR=/usr/bin/vi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
