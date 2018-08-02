@@ -51,8 +51,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export EDITOR=/usr/bin/vi
-export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -108,14 +106,3 @@ ZSH_THEME_GIT_PROMPT_DIRTY="⚡"
 . /usr/share/autojump/autojump.zsh
 #alias
 alias flake8="flake8 --ignore='E122,E123,E124,E126,E128,E309,W503'"
-
-# Environment variables
-export WORKON_HOME=~/.virtualenvs
-export PROJECT_HOME=~/projectes
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
-source /usr/bin/virtualenvwrapper.sh
-
-#TRYTOND configuration
-export TRYTOND_CONFIG=~/trytond.conf
-export TRYTONPASSFILE=~/.default_tryton_password
-export DB_CACHE=~/tryton_db_cache
