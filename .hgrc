@@ -1,9 +1,8 @@
 [ui]
 username = Sergi Almacellas Abellana <sergi@koolpi.com>
-ignore = /home/sergi/.hgignore
+ignore = /home/pokoli/.hgignore
 
 [extensions]
-hgreview =
 rebase =
 hgext.purge =
 color =
@@ -12,7 +11,6 @@ mq =
 graphlog =
 histedit =
 shelve =
-hggit =
 
 [review]
 server = https://tryton-rietveld.appspot.com/
