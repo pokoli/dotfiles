@@ -29,7 +29,7 @@ let g:PyFlakeDisabledMessages = 'E122,E123,E124,E126,E128,E309,W503'
 
 " Remove trailing spaces before writing Change * with *.py to only remove on
 " python files
-autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre *.py :%s/\s\+$//e
 
 " Vim indent file
 " Language: Python
