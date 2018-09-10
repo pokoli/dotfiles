@@ -10,22 +10,22 @@ filetype plugin on
 filetype indent on
 syntax on
 colorscheme ron
-" utilsnips
-set runtimepath+=~/.vim/ultisnips_rep
-set runtimepath+=~/.vim/Ultisnips
 
 vmap Q gq
 nmap Q gqap
 
 nmap <F8> :TagbarToggle<CR>
 
+" Enable pathogen
+execute pathogen#infect()
+
 " Format XML files with gg=G command
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 
 " Allow pylakes vim plugin to open automatically
 filetype plugin indent on
-" Disbled pep messages for
-let g:PyFlakeDisabledMessages = 'E122,E123,E124,E126,E128,E309,W503'
+" Automatically call flake8 when saving python version
+autocmd BufWritePost *.py call Flake8()
 
 " Remove trailing spaces before writing Change * with *.py to only remove on
 " python files
