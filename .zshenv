@@ -1,6 +1,7 @@
 # User settings
 export EDITOR=/usr/bin/vi
 export PATH=$HOME/bin:$PATH
+export TERM=xterm
 
 # Environment variables
 export WORKON_HOME=~/.virtualenvs
