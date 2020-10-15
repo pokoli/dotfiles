@@ -13,5 +13,7 @@ dist/
 .tox/
 bower_components/
 *.rej
+*.bak
 locale/*.json
 .coverage
+.~lock.*
