@@ -5,3 +5,4 @@ Host *
     ServerAliveCountMax 30
     ControlMaster auto
     ControlPath ~/.ssh/master-%r@%h:%p
+    ControlPersist 3s
