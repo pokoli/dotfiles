@@ -30,7 +30,11 @@ autocmd BufWritePost *.py call Flake8()
 " Remove trailing spaces before writing Change * with *.py to only remove on
 " python files
 autocmd BufWritePre *.py :%s/\s\+$//e
-autocmd BufWritePre scenario_*.rst :%s/\s\+$//e
+autocmd BufWritePre *.rst :%s/\s\+$//e
+
+" Configure isort for tryton
+let g:vim_isort_config_overrides = {
+      \ 'multi_line_output': 4, 'known_first_party': ['trytond']}
 
 " Vim indent file
 " Language: Python
