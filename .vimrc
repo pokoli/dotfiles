@@ -9,7 +9,7 @@ set colorcolumn=79
 filetype plugin on
 filetype indent on
 syntax on
-colorscheme ron
+colorscheme desert
 
 vmap Q gq
 nmap Q gqap
